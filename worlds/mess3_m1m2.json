@@ -1,0 +1,13 @@
+{
+  "name": "mess3_m1m2",
+  "factors": [
+    "mess3_fwh_m1",
+    "mess3_fwh_m2"
+  ],
+  "beta": 4.0,
+  "levels": [
+    -1,
+    0,
+    1
+  ]
+}

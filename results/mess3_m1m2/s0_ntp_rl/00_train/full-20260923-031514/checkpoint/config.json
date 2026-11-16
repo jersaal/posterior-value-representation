@@ -1,0 +1,57 @@
+{
+  "study": "mess3_m1m2/s0_ntp_rl",
+  "world": "mess3_m1m2",
+  "factors": [
+    "mess3_fwh_m1",
+    "mess3_fwh_m2"
+  ],
+  "d_vocab": 17,
+  "n_ctx": 91,
+  "action_positions": [
+    31,
+    36,
+    41,
+    46,
+    51,
+    56,
+    61,
+    66,
+    71,
+    90
+  ],
+  "arch": {
+    "name": "tiny_4l_2h_64d_c91",
+    "n_layers": 4,
+    "d_model": 64,
+    "n_heads": 2,
+    "d_head": 32,
+    "d_mlp": 256,
+    "n_ctx": 91,
+    "act_fn": "relu",
+    "normalization_type": "LN"
+  },
+  "training": {
+    "name": "reinforce_24k",
+    "num_steps": 24000,
+    "batch_size": 2048,
+    "lr": 0.001,
+    "lr_final": 2e-05,
+    "decay_start": 6000,
+    "decay_end": 20000,
+    "log_every": 200,
+    "note": "Zero-baseline REINFORCE with entropy bonus H/beta; AdamW at torch defaults except lr; no clipping, no evaluator."
+  },
+  "actor": {
+    "kind": "toy"
+  },
+  "symbol_map": null,
+  "init_from": {
+    "study": "mess3_m1m2/s0_ntp",
+    "path": "results/mess3_m1m2/s0_ntp/00_train/full-20260923-014321/checkpoint/weights.pt",
+    "sha256": "983e4bbdfd0ee780b18c08bfdda629fb0c54962052489f34ee218abb820a7fab"
+  },
+  "model_seed": 20100001,
+  "data_stream_base": 21100000,
+  "num_steps": 24000,
+  "world_spec_sha256": "c22e08ab32c55ff92ec4e58867875275c905febc02226aa251da565f07872d4a"
+}

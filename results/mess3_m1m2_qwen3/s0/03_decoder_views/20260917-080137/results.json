@@ -1,0 +1,369 @@
+{
+  "headline": {
+    "portrait_r2_etaA": {
+      "value": 0.9979717305407857,
+      "n": 6345,
+      "unit": "R\u00b2",
+      "description": "factor-M posterior R\u00b2 on eval episodes at the posterior site blocks.0.hook_resid_post"
+    },
+    "portrait_r2_etaB": {
+      "value": 0.992909611436812,
+      "n": 6345,
+      "unit": "R\u00b2",
+      "description": "factor-N posterior R\u00b2 on eval episodes at the posterior site blocks.0.hook_resid_post"
+    },
+    "portrait_r2_D": {
+      "value": 0.9696839694579166,
+      "n": 6345,
+      "unit": "R\u00b2",
+      "description": "offer-value R\u00b2 on eval episodes at the value site blocks.16.hook_resid_post"
+    },
+    "prop_composed_r2_pooled": {
+      "value": 0.9969394440377075,
+      "n": 27283,
+      "unit": "R\u00b2",
+      "description": "pooled R\u00b2 of composed P\u0302(X) over all held-out (proposition, context) pairs at the display site"
+    },
+    "prop_direct_r2_pooled": {
+      "value": 0.9970258687140452,
+      "n": 27283,
+      "unit": "R\u00b2",
+      "description": "pooled R\u00b2 of direct D\u0302(X) over all held-out (proposition, context) pairs at the display site"
+    }
+  },
+  "natural_r2_by_site": {
+    "blocks.0.hook_resid_post": {
+      "etaA": 0.9979717305407857,
+      "etaB": 0.992909611436812,
+      "D": 0.006837442524361692
+    },
+    "blocks.1.hook_resid_post": {
+      "etaA": 0.998467054872702,
+      "etaB": 0.9961069933264212,
+      "D": 0.011341317428597786
+    },
+    "blocks.2.hook_resid_post": {
+      "etaA": 0.9980143295928369,
+      "etaB": 0.9967404452445767,
+      "D": 0.014182980079298746
+    },
+    "blocks.3.hook_resid_post": {
+      "etaA": 0.997735020348606,
+      "etaB": 0.9964808594214288,
+      "D": 0.00855355851750983
+    },
+    "blocks.4.hook_resid_post": {
+      "etaA": 0.9979522036014561,
+      "etaB": 0.9968531704497757,
+      "D": 0.015616281494732265
+    },
+    "blocks.5.hook_resid_post": {
+      "etaA": 0.9987283003223311,
+      "etaB": 0.9984775693590838,
+      "D": 0.015305815880249263
+    },
+    "blocks.6.hook_resid_post": {
+      "etaA": 0.998725730756735,
+      "etaB": 0.9985665046101333,
+      "D": 0.1350461235524245
+    },
+    "blocks.7.hook_resid_post": {
+      "etaA": 0.9989399482856194,
+      "etaB": 0.9987722794348082,
+      "D": 0.11693375220452584
+    },
+    "blocks.8.hook_resid_post": {
+      "etaA": 0.9989337429001092,
+      "etaB": 0.9988115473253302,
+      "D": 0.13129272274320658
+    },
+    "blocks.9.hook_resid_post": {
+      "etaA": 0.998998033737871,
+      "etaB": 0.9988440005457123,
+      "D": 0.143043797889581
+    },
+    "blocks.10.hook_resid_post": {
+      "etaA": 0.9991608863641902,
+      "etaB": 0.9990569373226725,
+      "D": 0.16464055442926762
+    },
+    "blocks.11.hook_resid_post": {
+      "etaA": 0.9992419240629602,
+      "etaB": 0.9991112723217225,
+      "D": 0.27020403715865693
+    },
+    "blocks.12.hook_resid_post": {
+      "etaA": 0.9993165519943681,
+      "etaB": 0.999118754229018,
+      "D": 0.37645665017888663
+    },
+    "blocks.13.hook_resid_post": {
+      "etaA": 0.999309034162046,
+      "etaB": 0.9990840620079562,
+      "D": 0.5874164607049102
+    },
+    "blocks.14.hook_resid_post": {
+      "etaA": 0.9993239294125787,
+      "etaB": 0.9990920201743476,
+      "D": 0.6038200104795122
+    },
+    "blocks.15.hook_resid_post": {
+      "etaA": 0.9991399875540997,
+      "etaB": 0.9989151028979874,
+      "D": 0.8180903575262851
+    },
+    "blocks.16.hook_resid_post": {
+      "etaA": 0.9988918081922643,
+      "etaB": 0.998685584471642,
+      "D": 0.9696839694579166
+    },
+    "blocks.17.hook_resid_post": {
+      "etaA": 0.9987794675654498,
+      "etaB": 0.998534090759923,
+      "D": 0.9726484870033023
+    },
+    "blocks.18.hook_resid_post": {
+      "etaA": 0.998464062034306,
+      "etaB": 0.9981747791153264,
+      "D": 0.9971978361765744
+    },
+    "blocks.19.hook_resid_post": {
+      "etaA": 0.9981407389419372,
+      "etaB": 0.9978092826106777,
+      "D": 0.9981936202183399
+    },
+    "blocks.20.hook_resid_post": {
+      "etaA": 0.9978628044622254,
+      "etaB": 0.9974470568311116,
+      "D": 0.9982808480200073
+    },
+    "blocks.21.hook_resid_post": {
+      "etaA": 0.997603096644403,
+      "etaB": 0.9970249750591147,
+      "D": 0.9982723105981518
+    },
+    "blocks.22.hook_resid_post": {
+      "etaA": 0.9974804097399634,
+      "etaB": 0.9968434266388315,
+      "D": 0.9982595929385645
+    },
+    "blocks.23.hook_resid_post": {
+      "etaA": 0.9973240566719902,
+      "etaB": 0.9966761737191858,
+      "D": 0.998266562930163
+    },
+    "blocks.24.hook_resid_post": {
+      "etaA": 0.9971481243190133,
+      "etaB": 0.9964360712252079,
+      "D": 0.9982731013278162
+    },
+    "blocks.25.hook_resid_post": {
+      "etaA": 0.9971013725794896,
+      "etaB": 0.9964061090707064,
+      "D": 0.998278353807189
+    },
+    "blocks.26.hook_resid_post": {
+      "etaA": 0.997039090617288,
+      "etaB": 0.996358678659771,
+      "D": 0.9982742699107815
+    },
+    "blocks.27.hook_resid_post": {
+      "etaA": 0.9969663671010806,
+      "etaB": 0.9962313709004265,
+      "D": 0.9982852423495421
+    }
+  },
+  "n_eval": 8192,
+  "n_valid": 6345,
+  "n_ctx": 512,
+  "display_site": "blocks.27.hook_resid_post",
+  "read_sites": {
+    "posterior": "L0",
+    "value": "L16"
+  },
+  "portrait_sites": {
+    "posterior": "blocks.0.hook_resid_post",
+    "value": "blocks.16.hook_resid_post"
+  },
+  "masks_kept": [
+    7,
+    13,
+    19,
+    33,
+    34,
+    43,
+    46,
+    49,
+    52,
+    64,
+    66,
+    67,
+    71,
+    76,
+    86,
+    90,
+    96,
+    101,
+    119,
+    124,
+    145,
+    150,
+    166,
+    167,
+    171,
+    175,
+    176,
+    184,
+    192,
+    201,
+    209,
+    219,
+    220,
+    245,
+    247,
+    258,
+    275,
+    283,
+    289,
+    294,
+    295,
+    306,
+    331,
+    344,
+    355,
+    359,
+    360,
+    374,
+    379,
+    380,
+    383,
+    386,
+    388,
+    399,
+    400,
+    432,
+    436,
+    441,
+    443,
+    449,
+    457,
+    472,
+    475,
+    481
+  ],
+  "masks_skipped": [],
+  "prop_median_by_site": {
+    "blocks.0.hook_resid_post": {
+      "P": 0.9939384976866077,
+      "D": 0.02457857509066219
+    },
+    "blocks.1.hook_resid_post": {
+      "P": 0.9967072338090339,
+      "D": 0.002413269730071277
+    },
+    "blocks.2.hook_resid_post": {
+      "P": 0.9968810795867387,
+      "D": 0.004425746854258172
+    },
+    "blocks.3.hook_resid_post": {
+      "P": 0.9964746870849028,
+      "D": 0.03272526507147305
+    },
+    "blocks.4.hook_resid_post": {
+      "P": 0.9969073330518872,
+      "D": 0.020329863766167355
+    },
+    "blocks.5.hook_resid_post": {
+      "P": 0.9982919233646564,
+      "D": 0.021753193144835925
+    },
+    "blocks.6.hook_resid_post": {
+      "P": 0.9983052562193249,
+      "D": 0.1235712225444831
+    },
+    "blocks.7.hook_resid_post": {
+      "P": 0.9985928249934894,
+      "D": 0.06216746421085634
+    },
+    "blocks.8.hook_resid_post": {
+      "P": 0.998625894088901,
+      "D": 0.10869738429596865
+    },
+    "blocks.9.hook_resid_post": {
+      "P": 0.9986856456416981,
+      "D": 0.12149516552889589
+    },
+    "blocks.10.hook_resid_post": {
+      "P": 0.9988946981379259,
+      "D": 0.20165150567058437
+    },
+    "blocks.11.hook_resid_post": {
+      "P": 0.9989710370357388,
+      "D": 0.24323629460416013
+    },
+    "blocks.12.hook_resid_post": {
+      "P": 0.9990471203292153,
+      "D": 0.24014459549426564
+    },
+    "blocks.13.hook_resid_post": {
+      "P": 0.9990244186264454,
+      "D": 0.3302307010119892
+    },
+    "blocks.14.hook_resid_post": {
+      "P": 0.999053564079807,
+      "D": 0.3577370247803855
+    },
+    "blocks.15.hook_resid_post": {
+      "P": 0.9988082395163947,
+      "D": 0.5911855108451248
+    },
+    "blocks.16.hook_resid_post": {
+      "P": 0.998467988728641,
+      "D": 0.932199198354738
+    },
+    "blocks.17.hook_resid_post": {
+      "P": 0.9983033312236459,
+      "D": 0.9403072993012359
+    },
+    "blocks.18.hook_resid_post": {
+      "P": 0.9978671465943723,
+      "D": 0.9936380594119013
+    },
+    "blocks.19.hook_resid_post": {
+      "P": 0.9973559587542838,
+      "D": 0.9966191173394517
+    },
+    "blocks.20.hook_resid_post": {
+      "P": 0.9969912120541895,
+      "D": 0.9968429617651235
+    },
+    "blocks.21.hook_resid_post": {
+      "P": 0.9965064351440364,
+      "D": 0.9968377016807437
+    },
+    "blocks.22.hook_resid_post": {
+      "P": 0.9963155157050791,
+      "D": 0.9968429650647175
+    },
+    "blocks.23.hook_resid_post": {
+      "P": 0.9961391091814102,
+      "D": 0.9968633168261244
+    },
+    "blocks.24.hook_resid_post": {
+      "P": 0.995886985106378,
+      "D": 0.996846247779302
+    },
+    "blocks.25.hook_resid_post": {
+      "P": 0.9958625949428046,
+      "D": 0.9968443388983671
+    },
+    "blocks.26.hook_resid_post": {
+      "P": 0.9958292294589192,
+      "D": 0.9968923846590878
+    },
+    "blocks.27.hook_resid_post": {
+      "P": 0.9957781678603002,
+      "D": 0.996894781300983
+    }
+  }
+}

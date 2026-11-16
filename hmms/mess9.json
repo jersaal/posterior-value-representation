@@ -1,0 +1,8 @@
+{
+ "name": "mess9",
+ "type": "messn",
+ "n": 9,
+ "x": 0.0375,
+ "a": 0.45,
+ "note": "One nine-state chain by the Mess3 construction: stay probability 0.7 as in Mess3 (x = 0.3/8); a = 0.45 chosen so the mean posterior maximum at the readouts matches the joint posterior of mess3_m1m2 (0.47)."
+}

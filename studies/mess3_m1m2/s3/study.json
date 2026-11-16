@@ -1,0 +1,23 @@
+{
+  "world": "mess3_m1m2",
+  "seed_tag": "s3",
+  "arch": "configs/arch/tiny_4l_2h_64d_c91.json",
+  "training": "configs/training/reinforce_24k.json",
+  "seeds": {
+    "model_init": 20300001,
+    "data_stream_base": 21300000,
+    "post_training_eval": 23300001,
+    "fit": 23800001,
+    "eval": 23800002,
+    "smoke_model_init": 29000001,
+    "smoke_data_stream_base": 29100000
+  },
+  "checkpoint": {
+    "path": "results/mess3_m1m2/s3/00_train/full-20260830-015909/checkpoint/weights.pt",
+    "sha256": "3c4a6fc28b06437a0e0f786ac779bb6cc2d95a0ce8dccb6f109eb443dd6b76ed"
+  },
+  "instruments": {
+    "path": "studies/mess3_m1m2/s3/instruments/instruments.json",
+    "artifact_sha256": "d4e0ebd37adc65256cb0a52e52450219da0a819439bb49e0726f7684d9a9e641"
+  }
+}

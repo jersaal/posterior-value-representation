@@ -1,0 +1,149 @@
+{
+  "study": "mess3_m1m2/s0_8l",
+  "checkpoint_sha256": "abf4452d305c617eb37a101522026afae161be5864d985db506b3e4418018dea",
+  "artifact_sha256": "917c7fb7bdf350bfb382eaea2a871b3d446c742ec2d0aabca8abd68f758a9b68",
+  "fit_seed": 23600001,
+  "n_fit": 4096,
+  "n_plane": 2048,
+  "rows_per_dim": {
+    "fit": 8,
+    "plane": 4
+  },
+  "grade_readout": 5,
+  "grade_position": 56,
+  "min_offer_prob": 0.02,
+  "n_valid": 3199,
+  "sites": [
+    "blocks.0.hook_resid_pre",
+    "blocks.0.hook_resid_post",
+    "blocks.1.hook_resid_post",
+    "blocks.2.hook_resid_post",
+    "blocks.3.hook_resid_post",
+    "blocks.4.hook_resid_post",
+    "blocks.5.hook_resid_post",
+    "blocks.6.hook_resid_post",
+    "blocks.7.hook_resid_post"
+  ],
+  "targets": [
+    "etaA0",
+    "etaA1",
+    "etaA2",
+    "etaB0",
+    "etaB1",
+    "etaB2",
+    "D_A",
+    "D_B"
+  ],
+  "cv": {
+    "blocks.0.hook_resid_pre": {
+      "etaA": -0.0011621098946825725,
+      "etaB": -0.0008616865481678726,
+      "D": -0.00027234912914342324
+    },
+    "blocks.0.hook_resid_post": {
+      "etaA": 0.9963320583637442,
+      "etaB": 0.9939844824403749,
+      "D": 0.043616531564598326
+    },
+    "blocks.1.hook_resid_post": {
+      "etaA": 0.9928815793678429,
+      "etaB": 0.9914502256414861,
+      "D": 0.6467045806598555
+    },
+    "blocks.2.hook_resid_post": {
+      "etaA": 0.9917119606557386,
+      "etaB": 0.9887005325236083,
+      "D": 0.8422792221609621
+    },
+    "blocks.3.hook_resid_post": {
+      "etaA": 0.9908636120996581,
+      "etaB": 0.9862892439831284,
+      "D": 0.9975221155544336
+    },
+    "blocks.4.hook_resid_post": {
+      "etaA": 0.9893736941654717,
+      "etaB": 0.9853793186058676,
+      "D": 0.9976263794201181
+    },
+    "blocks.5.hook_resid_post": {
+      "etaA": 0.9890761171461714,
+      "etaB": 0.9835976467837338,
+      "D": 0.9976061550871377
+    },
+    "blocks.6.hook_resid_post": {
+      "etaA": 0.988434948950666,
+      "etaB": 0.9823153148087066,
+      "D": 0.9974962436991578
+    },
+    "blocks.7.hook_resid_post": {
+      "etaA": 0.9867525201393283,
+      "etaB": 0.9810038941139144,
+      "D": 0.9974095664983408
+    }
+  },
+  "formation_r2": 0.95,
+  "posterior_site": "blocks.0.hook_resid_post",
+  "value_site": "blocks.3.hook_resid_post",
+  "posterior_site_reached_threshold": true,
+  "value_site_reached_threshold": true,
+  "value_write_site": "blocks.5.hook_resid_post",
+  "posterior_write_site": {
+    "A": "blocks.0.hook_resid_post",
+    "B": "blocks.0.hook_resid_post"
+  },
+  "write_fraction": 0.95,
+  "write_site_rule": "earliest post-block site whose steering slope reaches 0.95 of the ladder maximum",
+  "reads_only": false,
+  "planes": [
+    "posterior_A",
+    "posterior_B",
+    "value"
+  ],
+  "write_scan_slopes": {
+    "own": {
+      "blocks.0.hook_resid_post": -0.004401310144594394,
+      "blocks.1.hook_resid_post": 0.1130787618179534,
+      "blocks.2.hook_resid_post": 0.11749544285826845,
+      "blocks.3.hook_resid_post": 0.8906008590372734,
+      "blocks.4.hook_resid_post": 0.91816606654044,
+      "blocks.5.hook_resid_post": 0.9727822026082643,
+      "blocks.6.hook_resid_post": 0.9721151981339782,
+      "blocks.7.hook_resid_post": 0.9379522035497989
+    }
+  },
+  "posterior_write_scan_slopes": {
+    "A": {
+      "blocks.0.hook_resid_post": 0.9434414274449793,
+      "blocks.1.hook_resid_post": 0.8506531302128261,
+      "blocks.2.hook_resid_post": 0.8471886471191405,
+      "blocks.3.hook_resid_post": 0.07534380753780424,
+      "blocks.4.hook_resid_post": 0.04829595995674081,
+      "blocks.5.hook_resid_post": 0.0037581535365693946,
+      "blocks.6.hook_resid_post": 0.0026570172188199186,
+      "blocks.7.hook_resid_post": 0.001690825337735972
+    },
+    "B": {
+      "blocks.0.hook_resid_post": 0.9778641163733323,
+      "blocks.1.hook_resid_post": 0.8801409790325686,
+      "blocks.2.hook_resid_post": 0.8756415969203163,
+      "blocks.3.hook_resid_post": 0.08710534371599038,
+      "blocks.4.hook_resid_post": 0.05361654338142604,
+      "blocks.5.hook_resid_post": 0.003514437232031795,
+      "blocks.6.hook_resid_post": -0.0007404728764328294,
+      "blocks.7.hook_resid_post": -0.0020725784606693
+    }
+  },
+  "n_scan": 1024,
+  "display_site": "blocks.7.hook_resid_post",
+  "plane_cond": {
+    "posterior_A": 1.0234151839172791,
+    "posterior_B": 1.0358313657992395,
+    "value": 1.5941524067846846
+  },
+  "posterior_unit": {
+    "A": 0.2595629042512595,
+    "B": 0.4320087366154774
+  },
+  "run_dir": "results/mess3_m1m2/s0_8l/02_fit_instruments/20261112-140458",
+  "smoke": false
+}

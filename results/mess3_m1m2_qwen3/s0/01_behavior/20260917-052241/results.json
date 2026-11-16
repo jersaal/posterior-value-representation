@@ -1,0 +1,19 @@
+{
+  "headline": {
+    "pearson_r": {
+      "value": 0.9986719144199347,
+      "n": 81920,
+      "unit": "r",
+      "description": "Pearson r of P(bet A): organism vs rational chooser"
+    },
+    "perm_p": {
+      "value": 9.99990000099999e-06,
+      "n": 100000,
+      "unit": "p",
+      "description": "one-sided p of r under whole-episode permutations"
+    }
+  },
+  "n_episodes": 8192,
+  "n_decisions": 81920,
+  "checkpoint_sha256": "6596643ae8fb72ccdbfbfa6530a6d90112bb886651fbf4aeb621718adc90f297"
+}

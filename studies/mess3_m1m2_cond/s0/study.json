@@ -1,0 +1,24 @@
+{
+  "world": "mess3_m1m2_cond",
+  "seed_tag": "s0",
+  "arch": "configs/arch/tiny_4l_2h_64d_c91.json",
+  "training": "configs/training/reinforce_24k.json",
+  "seeds": {
+    "model_init": 20100001,
+    "data_stream_base": 21100000,
+    "post_training_eval": 23100001,
+    "fit": 23600001,
+    "eval": 23600002,
+    "smoke_model_init": 29000001,
+    "smoke_data_stream_base": 29100000
+  },
+  "checkpoint": {
+    "path": "results/mess3_m1m2_cond/s0/00_train/full-20261108-004955/checkpoint/weights.pt",
+    "sha256": "d9b59488798f5e72e33108cdbe25fb00905316908953dca04a5d127e28c51c33"
+  },
+  "instruments": {
+    "path": "studies/mess3_m1m2_cond/s0/instruments/instruments.json",
+    "artifact_sha256": "d2d77eaa721215080a4c5c288d746f977c3c318849538683353e4f0946955b07"
+  },
+  "note": "The toy model's seeds, architecture and training settings with offers given as one condition per chain."
+}

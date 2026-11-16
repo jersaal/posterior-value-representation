@@ -1,0 +1,45 @@
+{
+  "experiment": "08_decoder_representation",
+  "study": "mess3_m1m2/s0",
+  "spec_hashes": {
+    "study": "04d87a276d01c164161ee19e8d71296bf92a4bd4b8aac46514a7ebcc340107b8",
+    "arch": "58bacef05870de3ad7065e2a1e4d4c2a23e064463c544f76fd17e74ccfc97247",
+    "training": "2ef98da14b2d7c6682fb72f2b78ab6be56cd03be0cc5b6800b9f4466a4504d20",
+    "world": "c22e08ab32c55ff92ec4e58867875275c905febc02226aa251da565f07872d4a",
+    "hmm:mess3_fwh_m1": "43ee1556e4b09836ea84970a21cda2479272327c7fe7874a10cd4b2050e67038",
+    "hmm:mess3_fwh_m2": "64559d88374d05d83e0d4370c39d080ae779fdb82f550b5a9066b44e4c7f74dd"
+  },
+  "argv": [
+    "--study",
+    "mess3_m1m2/s0"
+  ],
+  "seeds": {},
+  "runtime_versions": {
+    "torch": "2.12.0",
+    "transformer-lens": "3.3.0",
+    "transformers": "5.16.1",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "scikit-learn": "1.9.0",
+    "python": "3.12.12"
+  },
+  "device": "mps",
+  "start_time": "2026-11-12T14:50:16-0800",
+  "end_time": "2026-11-12T14:50:16-0800",
+  "force_used": false,
+  "figures": [
+    {
+      "path": "results/mess3_m1m2/s0/08_decoder_representation/20261112-145016/figures/paper_decoder_flat_split.png",
+      "sha256": "c2f60ca4d522e7633c96a461536d3035eee964b3498323d701798eaaf5306fc6"
+    }
+  ],
+  "sources": {
+    "03_decoder_views": "results/mess3_m1m2/s0/03_decoder_views/20261112-145005",
+    "07_intrinsic_dim": "results/mess3_m1m2/s0/07_intrinsic_dim/20261112-134414"
+  },
+  "source_sha256": {
+    "03_decoder_views": "e92a466117723b835662370fd19cea95e6081b151d8d920eda0e1ef736112be7",
+    "07_intrinsic_dim": "1dba05768b83b99919ac665593322a4382c3305cb7927701e634645aecde0f88"
+  }
+}

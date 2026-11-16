@@ -1,0 +1,47 @@
+{
+  "experiment": "03_decoder_views",
+  "study": "mess3_m1m2/s2",
+  "spec_hashes": {
+    "study": "6bed48d52813915d778f43b894aa41e7c23aaeaf2f407c045172c8e2fca344ba",
+    "arch": "58bacef05870de3ad7065e2a1e4d4c2a23e064463c544f76fd17e74ccfc97247",
+    "training": "2ef98da14b2d7c6682fb72f2b78ab6be56cd03be0cc5b6800b9f4466a4504d20",
+    "world": "c22e08ab32c55ff92ec4e58867875275c905febc02226aa251da565f07872d4a",
+    "hmm:mess3_fwh_m1": "43ee1556e4b09836ea84970a21cda2479272327c7fe7874a10cd4b2050e67038",
+    "hmm:mess3_fwh_m2": "64559d88374d05d83e0d4370c39d080ae779fdb82f550b5a9066b44e4c7f74dd"
+  },
+  "argv": [
+    "--study",
+    "mess3_m1m2/s2"
+  ],
+  "seeds": {
+    "eval": 23700002,
+    "show": [
+      23700002,
+      1
+    ],
+    "partner": [
+      23700002,
+      2
+    ]
+  },
+  "runtime_versions": {
+    "torch": "2.12.0",
+    "transformer-lens": "3.3.0",
+    "transformers": "5.16.1",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "scikit-learn": "1.9.0",
+    "python": "3.12.12"
+  },
+  "device": "mps",
+  "start_time": "2026-11-12T13:48:22-0800",
+  "end_time": "2026-11-12T13:48:38-0800",
+  "force_used": false,
+  "figures": [],
+  "checkpoint": {
+    "path": "results/mess3_m1m2/s2/00_train/full-20260830-015838/checkpoint/weights.pt",
+    "sha256": "2494654ab247b03d89362cedad5b30cfabed44b21462b1b5648787b084f698af"
+  },
+  "instruments_sha256": "26095e0ae7d17bc2e45b5e83a592ae8d9e014947002fa4d66dfd7f3ea9bdbe19"
+}

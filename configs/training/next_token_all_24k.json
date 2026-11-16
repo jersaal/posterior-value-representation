@@ -1,0 +1,13 @@
+{
+ "name": "next_token_all_24k",
+ "loss": "next_token",
+ "num_steps": 24000,
+ "batch_size": 2048,
+ "lr": 0.001,
+ "lr_final": 2e-05,
+ "decay_start": 6000,
+ "decay_end": 20000,
+ "log_every": 200,
+ "note": "Next-token cross-entropy at every position over the whole stream vocabulary except the two response channels (card, offers, DECIDE and clues all predicted; the response head receives no gradient); schedule identical to reinforce_24k.",
+ "ntp_targets": "all"
+}

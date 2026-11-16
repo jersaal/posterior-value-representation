@@ -1,0 +1,56 @@
+{
+  "headline": {
+    "etaA_r2_training_cards": {
+      "value": 0.9973820381349146,
+      "n": 6345,
+      "unit": "R\u00b2",
+      "description": "factor posterior M read at L0 with the fitted probe, training_cards"
+    },
+    "etaB_r2_training_cards": {
+      "value": 0.9941783320379775,
+      "n": 6345,
+      "unit": "R\u00b2",
+      "description": "factor posterior N read at L0 with the fitted probe, training_cards"
+    },
+    "D_r2_training_cards": {
+      "value": 0.9989426710899377,
+      "n": 6345,
+      "unit": "R\u00b2",
+      "description": "offer values read at L2 with the fitted probe, training_cards"
+    },
+    "etaA_r2_heldout_cards": {
+      "value": 0.9973825378844149,
+      "n": 6345,
+      "unit": "R\u00b2",
+      "description": "factor posterior M read at L0 with the fitted probe, heldout_cards"
+    },
+    "etaB_r2_heldout_cards": {
+      "value": 0.9941905367458219,
+      "n": 6345,
+      "unit": "R\u00b2",
+      "description": "factor posterior N read at L0 with the fitted probe, heldout_cards"
+    },
+    "D_r2_heldout_cards": {
+      "value": 0.9989926234183618,
+      "n": 6345,
+      "unit": "R\u00b2",
+      "description": "offer values read at L2 with the fitted probe, heldout_cards"
+    },
+    "choice_pearson_r_heldout_cards": {
+      "value": 0.9994406370482889,
+      "n": 81920,
+      "unit": "r",
+      "description": "Pearson r of P(choose A), model vs target policy, heldout_cards"
+    }
+  },
+  "n": {
+    "eval": 8192,
+    "heldout_cards": 1000,
+    "train_cards": 17660,
+    "eligible_cards": 18660
+  },
+  "sites": {
+    "posterior": "blocks.0.hook_resid_post",
+    "value": "blocks.2.hook_resid_post"
+  }
+}

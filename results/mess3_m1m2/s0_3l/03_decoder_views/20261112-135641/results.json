@@ -1,0 +1,145 @@
+{
+  "headline": {
+    "portrait_r2_etaA": {
+      "value": 0.9965455913133011,
+      "n": 6345,
+      "unit": "R\u00b2",
+      "description": "factor-M posterior R\u00b2 on eval episodes at the posterior site blocks.0.hook_resid_post"
+    },
+    "portrait_r2_etaB": {
+      "value": 0.9952500735276041,
+      "n": 6345,
+      "unit": "R\u00b2",
+      "description": "factor-N posterior R\u00b2 on eval episodes at the posterior site blocks.0.hook_resid_post"
+    },
+    "portrait_r2_D": {
+      "value": 0.9985445398146038,
+      "n": 6345,
+      "unit": "R\u00b2",
+      "description": "offer-value R\u00b2 on eval episodes at the value site blocks.2.hook_resid_post"
+    },
+    "prop_composed_r2_pooled": {
+      "value": 0.9919861298346504,
+      "n": 27283,
+      "unit": "R\u00b2",
+      "description": "pooled R\u00b2 of composed P\u0302(X) over all withheld (offer, context) pairs at the display site"
+    },
+    "prop_direct_r2_pooled": {
+      "value": 0.9981382100457137,
+      "n": 27283,
+      "unit": "R\u00b2",
+      "description": "pooled R\u00b2 of direct Q\u0302(X) over all withheld (offer, context) pairs at the display site"
+    }
+  },
+  "withheld_classes": [],
+  "natural_r2_by_site": {
+    "blocks.0.hook_resid_post": {
+      "etaA": 0.9965455913133011,
+      "etaB": 0.9952500735276041,
+      "D": 0.033883957209140614
+    },
+    "blocks.1.hook_resid_post": {
+      "etaA": 0.9949100193189437,
+      "etaB": 0.9935739020980994,
+      "D": 0.5660555391578161
+    },
+    "blocks.2.hook_resid_post": {
+      "etaA": 0.9918378397640372,
+      "etaB": 0.9895595493112493,
+      "D": 0.9985445398146038
+    }
+  },
+  "n_eval": 8192,
+  "n_valid": 6345,
+  "n_ctx": 512,
+  "display_site": "blocks.2.hook_resid_post",
+  "read_sites": {
+    "posterior": "L0",
+    "value": "L2"
+  },
+  "portrait_sites": {
+    "posterior": "blocks.0.hook_resid_post",
+    "value": "blocks.2.hook_resid_post"
+  },
+  "masks_kept": [
+    7,
+    13,
+    19,
+    33,
+    34,
+    43,
+    46,
+    49,
+    52,
+    64,
+    66,
+    67,
+    71,
+    76,
+    86,
+    90,
+    96,
+    101,
+    119,
+    124,
+    145,
+    150,
+    166,
+    167,
+    171,
+    175,
+    176,
+    184,
+    192,
+    201,
+    209,
+    219,
+    220,
+    245,
+    247,
+    258,
+    275,
+    283,
+    289,
+    294,
+    295,
+    306,
+    331,
+    344,
+    355,
+    359,
+    360,
+    374,
+    379,
+    380,
+    383,
+    386,
+    388,
+    399,
+    400,
+    432,
+    436,
+    441,
+    443,
+    449,
+    457,
+    472,
+    475,
+    481
+  ],
+  "masks_skipped": [],
+  "prop_median_by_site": {
+    "blocks.0.hook_resid_post": {
+      "P": 0.9951209268277734,
+      "D": 0.032741435097907445
+    },
+    "blocks.1.hook_resid_post": {
+      "P": 0.9929002670097907,
+      "D": 0.9575104625654701
+    },
+    "blocks.2.hook_resid_post": {
+      "P": 0.9886900081911232,
+      "D": 0.9979786972225277
+    }
+  }
+}

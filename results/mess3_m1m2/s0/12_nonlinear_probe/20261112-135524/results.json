@@ -1,0 +1,135 @@
+{
+  "headline": {
+    "mlp_gain_read_sites_max": {
+      "value": 0.0047661043699182,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "largest MLP minus affine CV R\u00b2 (either depth) over the factor posteriors at L0 and the offer values at L2"
+    },
+    "mlp_gain_any_site_max": {
+      "value": 0.01353205248160716,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "largest MLP minus affine CV R\u00b2 (either depth) over every target and every site"
+    },
+    "D_max_r2_L0": {
+      "value": 0.004365048241045111,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "largest CV R\u00b2 of the offer values at L0 over the affine and the two MLP probes"
+    }
+  },
+  "scores": {
+    "blocks.0.hook_resid_pre": {
+      "etaA": {
+        "affine": -0.0011621098946827946,
+        "mlp1": -0.00044877818741495545,
+        "mlp2": -0.003015891361565215
+      },
+      "etaB": {
+        "affine": -0.0008616865481678726,
+        "mlp1": -0.0011253323239042157,
+        "mlp2": -0.0014283343533256776
+      },
+      "D": {
+        "affine": -0.00027234912914342324,
+        "mlp1": -0.0003679767172908299,
+        "mlp2": -0.0007202631132707804
+      }
+    },
+    "blocks.0.hook_resid_post": {
+      "etaA": {
+        "affine": 0.9973861015566504,
+        "mlp1": 0.9987761175669534,
+        "mlp2": 0.9988543727393496
+      },
+      "etaB": {
+        "affine": 0.9941872781011571,
+        "mlp1": 0.9988558037439734,
+        "mlp2": 0.9989533824710753
+      },
+      "D": {
+        "affine": 0.004365048241045111,
+        "mlp1": -0.02013862057551541,
+        "mlp2": -0.020447157697703
+      }
+    },
+    "blocks.1.hook_resid_post": {
+      "etaA": {
+        "affine": 0.995787916192903,
+        "mlp1": 0.9987808838069999,
+        "mlp2": 0.9989325218857033
+      },
+      "etaB": {
+        "affine": 0.9928551204105712,
+        "mlp1": 0.9987460906181456,
+        "mlp2": 0.9989393043705047
+      },
+      "D": {
+        "affine": 0.40509531744659644,
+        "mlp1": 0.3884076844415417,
+        "mlp2": 0.39943173601486237
+      }
+    },
+    "blocks.2.hook_resid_post": {
+      "etaA": {
+        "affine": 0.9936974726883091,
+        "mlp1": 0.9983919390271884,
+        "mlp2": 0.998755386879085
+      },
+      "etaB": {
+        "affine": 0.9887717109111516,
+        "mlp1": 0.9981539314077561,
+        "mlp2": 0.9986860210119666
+      },
+      "D": {
+        "affine": 0.9989519974339831,
+        "mlp1": 0.9991073160067246,
+        "mlp2": 0.9991471915652557
+      }
+    },
+    "blocks.3.hook_resid_post": {
+      "etaA": {
+        "affine": 0.9916625863135544,
+        "mlp1": 0.998219910687717,
+        "mlp2": 0.9986224721042586
+      },
+      "etaB": {
+        "affine": 0.9849786764500452,
+        "mlp1": 0.9979309640489196,
+        "mlp2": 0.9985107289316524
+      },
+      "D": {
+        "affine": 0.9987271656308828,
+        "mlp1": 0.9990828904396996,
+        "mlp2": 0.9991377739999058
+      }
+    }
+  },
+  "sites": [
+    "blocks.0.hook_resid_pre",
+    "blocks.0.hook_resid_post",
+    "blocks.1.hook_resid_post",
+    "blocks.2.hook_resid_post",
+    "blocks.3.hook_resid_post"
+  ],
+  "read_sites": {
+    "etaA": "blocks.0.hook_resid_post",
+    "etaB": "blocks.0.hook_resid_post",
+    "D": "blocks.2.hook_resid_post"
+  },
+  "n": {
+    "fit": 4096,
+    "valid_rows": 3199,
+    "folds": 5
+  },
+  "mlp": {
+    "hidden": 256,
+    "activation": "GELU",
+    "max_steps": 3000,
+    "patience": 150,
+    "val_fraction": 0.1,
+    "lr": 0.001,
+    "weight_decay": 1e-05
+  }
+}

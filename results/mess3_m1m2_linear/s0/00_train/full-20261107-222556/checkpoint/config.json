@@ -1,0 +1,53 @@
+{
+  "study": "mess3_m1m2_linear/s0",
+  "world": "mess3_m1m2_linear",
+  "factors": [
+    "mess3_fwh_m1",
+    "mess3_fwh_m2"
+  ],
+  "d_vocab": 17,
+  "n_ctx": 91,
+  "action_positions": [
+    31,
+    36,
+    41,
+    46,
+    51,
+    56,
+    61,
+    66,
+    71,
+    90
+  ],
+  "arch": {
+    "name": "tiny_4l_2h_64d_c91",
+    "n_layers": 4,
+    "d_model": 64,
+    "n_heads": 2,
+    "d_head": 32,
+    "d_mlp": 256,
+    "n_ctx": 91,
+    "act_fn": "relu",
+    "normalization_type": "LN"
+  },
+  "training": {
+    "name": "reinforce_24k",
+    "num_steps": 24000,
+    "batch_size": 2048,
+    "lr": 0.001,
+    "lr_final": 2e-05,
+    "decay_start": 6000,
+    "decay_end": 20000,
+    "log_every": 200,
+    "note": "Zero-baseline REINFORCE with entropy bonus H/beta; AdamW at torch defaults except lr; no clipping, no evaluator."
+  },
+  "actor": {
+    "kind": "toy"
+  },
+  "symbol_map": null,
+  "init_from": null,
+  "model_seed": 20100001,
+  "data_stream_base": 21100000,
+  "num_steps": 24000,
+  "world_spec_sha256": "05dd9bbe5589d5e0078bc66c294fe5761c6f7f478e95ec3c21f11342d471b7c2"
+}

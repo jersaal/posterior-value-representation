@@ -1,0 +1,263 @@
+{
+  "headline": {
+    "etaA_ols_r2_L0": {
+      "value": 0.9973861015566504,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior M, CV R\u00b2 at L0, least squares (the paper's probe)"
+    },
+    "etaA_ridge_0.1_r2_L0": {
+      "value": 0.9843734810615389,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior M, CV R\u00b2 at L0, ridge weight 0.1"
+    },
+    "etaA_ridge_1_r2_L0": {
+      "value": 0.9714327168678437,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior M, CV R\u00b2 at L0, ridge weight 1"
+    },
+    "etaA_ridge_10_r2_L0": {
+      "value": 0.7482304290835962,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior M, CV R\u00b2 at L0, ridge weight 10"
+    },
+    "etaA_r2_64_episodes_L0": {
+      "value": 0.9723061005798747,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior M, CV R\u00b2 at L0, 64 training episodes per fold"
+    },
+    "etaA_r2_256_episodes_L0": {
+      "value": 0.9962021845229924,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior M, CV R\u00b2 at L0, 256 training episodes per fold"
+    },
+    "etaA_r2_1024_episodes_L0": {
+      "value": 0.9972444815239462,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior M, CV R\u00b2 at L0, 1024 training episodes per fold"
+    },
+    "etaA_position_min_same_L0": {
+      "value": 0.995984098432457,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior M at L0: lowest CV R\u00b2 over the 10 readouts, fit and scored at each readout"
+    },
+    "etaB_ols_r2_L0": {
+      "value": 0.9941872781011571,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior N, CV R\u00b2 at L0, least squares (the paper's probe)"
+    },
+    "etaB_ridge_0.1_r2_L0": {
+      "value": 0.9760696221856429,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior N, CV R\u00b2 at L0, ridge weight 0.1"
+    },
+    "etaB_ridge_1_r2_L0": {
+      "value": 0.961585050861474,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior N, CV R\u00b2 at L0, ridge weight 1"
+    },
+    "etaB_ridge_10_r2_L0": {
+      "value": 0.8105612055363376,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior N, CV R\u00b2 at L0, ridge weight 10"
+    },
+    "etaB_r2_64_episodes_L0": {
+      "value": 0.9473950534091603,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior N, CV R\u00b2 at L0, 64 training episodes per fold"
+    },
+    "etaB_r2_256_episodes_L0": {
+      "value": 0.991335097482062,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior N, CV R\u00b2 at L0, 256 training episodes per fold"
+    },
+    "etaB_r2_1024_episodes_L0": {
+      "value": 0.993856552336741,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior N, CV R\u00b2 at L0, 1024 training episodes per fold"
+    },
+    "etaB_position_min_same_L0": {
+      "value": 0.9923415139305828,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor posterior N at L0: lowest CV R\u00b2 over the 10 readouts, fit and scored at each readout"
+    },
+    "D_ols_r2_L2": {
+      "value": 0.9989519974339831,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "offer values, CV R\u00b2 at L2, least squares (the paper's probe)"
+    },
+    "D_ridge_0.1_r2_L2": {
+      "value": 0.998710325502884,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "offer values, CV R\u00b2 at L2, ridge weight 0.1"
+    },
+    "D_ridge_1_r2_L2": {
+      "value": 0.9941536038444662,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "offer values, CV R\u00b2 at L2, ridge weight 1"
+    },
+    "D_ridge_10_r2_L2": {
+      "value": 0.8569640181221096,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "offer values, CV R\u00b2 at L2, ridge weight 10"
+    },
+    "D_r2_64_episodes_L2": {
+      "value": 0.9932754297012184,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "offer values, CV R\u00b2 at L2, 64 training episodes per fold"
+    },
+    "D_r2_256_episodes_L2": {
+      "value": 0.99850635714158,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "offer values, CV R\u00b2 at L2, 256 training episodes per fold"
+    },
+    "D_r2_1024_episodes_L2": {
+      "value": 0.9988923479776378,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "offer values, CV R\u00b2 at L2, 1024 training episodes per fold"
+    },
+    "D_position_min_same_L2": {
+      "value": 0.9975181111824366,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "offer values at L2: lowest CV R\u00b2 over the 10 readouts, fit and scored at each readout"
+    }
+  },
+  "results": {
+    "etaA": {
+      "ridge": {
+        "0.0": 0.9973861015566504,
+        "0.1": 0.9843734810615389,
+        "1.0": 0.9714327168678437,
+        "10.0": 0.7482304290835962
+      },
+      "size": {
+        "64": 0.9723061005798747,
+        "128": 0.991413654772787,
+        "256": 0.9962021845229924,
+        "512": 0.9969767114128918,
+        "1024": 0.9972444815239462,
+        "2048": 0.9973636465090618,
+        "None": 0.9973861015566504
+      },
+      "position": [
+        0.99802242965633,
+        0.9975977603124644,
+        0.9975260661578853,
+        0.9975105530450634,
+        0.9973730934064353,
+        0.9973861015566504,
+        0.9972681690011264,
+        0.9975656174344362,
+        0.9973113832466685,
+        0.995984098432457
+      ]
+    },
+    "etaB": {
+      "ridge": {
+        "0.0": 0.9941872781011571,
+        "0.1": 0.9760696221856429,
+        "1.0": 0.961585050861474,
+        "10.0": 0.8105612055363376
+      },
+      "size": {
+        "64": 0.9473950534091603,
+        "128": 0.9819936790083578,
+        "256": 0.991335097482062,
+        "512": 0.9931785416868262,
+        "1024": 0.993856552336741,
+        "2048": 0.9941491129858812,
+        "None": 0.9941872781011571
+      },
+      "position": [
+        0.9946649254954375,
+        0.9941122827797448,
+        0.993855017553348,
+        0.9949193291719091,
+        0.9945213886689308,
+        0.9941872781011571,
+        0.9943526257915217,
+        0.9946977088280092,
+        0.9944486154943656,
+        0.9923415139305828
+      ]
+    },
+    "D": {
+      "ridge": {
+        "0.0": 0.9989519974339831,
+        "0.1": 0.998710325502884,
+        "1.0": 0.9941536038444662,
+        "10.0": 0.8569640181221096
+      },
+      "size": {
+        "64": 0.9932754297012184,
+        "128": 0.9970293933134388,
+        "256": 0.99850635714158,
+        "512": 0.9987822474414662,
+        "1024": 0.9988923479776378,
+        "2048": 0.9989427646033936,
+        "None": 0.9989519974339831
+      },
+      "position": [
+        0.9992487562796544,
+        0.9991466901008217,
+        0.9990812419411758,
+        0.999074219735256,
+        0.998957989982644,
+        0.9989519974339831,
+        0.9990357839661789,
+        0.9989024613520584,
+        0.9989479975858101,
+        0.9975181111824366
+      ]
+    }
+  },
+  "read_sites": {
+    "etaA": "blocks.0.hook_resid_post",
+    "etaB": "blocks.0.hook_resid_post",
+    "D": "blocks.2.hook_resid_post"
+  },
+  "lambdas": [
+    0.0,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "train_sizes": [
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    null
+  ],
+  "n": {
+    "fit": 4096,
+    "valid_rows_grade": 3199,
+    "folds": 5,
+    "train_episodes_all": 3276
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headline": {
+    "ablation_slope": {
+      "value": -0.00018852478479466448,
+      "n": 11896,
+      "unit": "slope",
+      "description": "observed vs exact choice-logit shift when the joint posterior is displaced at L0, through its 8-dimensional encoding subspace, to \u03b7_(i,j) = (\u03b7_A,i + \u03b7_B,j)/3 \u2212 1/9, on the episodes whose offer probabilities stay at least 0.02 under the target (SE 0.000)"
+    },
+    "ablation_slope_in_range": {
+      "value": 0.0009378403323689849,
+      "n": 8406,
+      "unit": "slope",
+      "description": "the same on the episodes whose implied offer values both stay within the payoff range (SE 0.001)"
+    },
+    "posterior_steer_slope": {
+      "value": 0.984031508395965,
+      "n": 11592,
+      "unit": "slope",
+      "description": "positive control: the posterior steer of factor A written through the same subspace at L0 as a change of its margin only, observed vs the exact counterfactual under the target factor posterior (SE 0.002)"
+    },
+    "control_slope": {
+      "value": -6.709719334201629e-05,
+      "n": 11896,
+      "unit": "slope",
+      "description": "the ablation's edit norms in random directions orthogonal to the encoding subspace, on the ablation's counterfactual and episodes (SE 0.000)"
+    }
+  },
+  "write_site": "L0",
+  "subspace_dim": 8,
+  "n_episodes": 16384,
+  "n_fit": 4096,
+  "n_plane": 2048
+}

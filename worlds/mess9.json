@@ -1,0 +1,12 @@
+{
+  "name": "mess9",
+  "factors": [
+    "mess9"
+  ],
+  "beta": 4.0,
+  "levels": [
+    -1,
+    0,
+    1
+  ]
+}

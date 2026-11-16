@@ -1,0 +1,243 @@
+{
+  "headline": {
+    "posterior_maximum_mean": {
+      "value": 0.47246451989550825,
+      "n": 81920,
+      "unit": "probability",
+      "description": "mean probability of the most likely of the nine states at the readouts, this world"
+    },
+    "posterior_maximum_mean_factored": {
+      "value": 0.4726609057187997,
+      "n": 81920,
+      "unit": "probability",
+      "description": "same in the two-factor world mess3_m1m2 (joint = product of the factor posteriors)"
+    },
+    "choice_pearson_r": {
+      "value": 0.9987337637396663,
+      "n": 81920,
+      "unit": "r",
+      "description": "Pearson r of P(bet A): model vs target policy"
+    },
+    "joint_posterior_cv_r2": {
+      "value": 0.9397398864411024,
+      "n": 4009,
+      "unit": "R\u00b2",
+      "description": "joint posterior (8 tangent coords) CV R\u00b2 at the posterior site L0"
+    },
+    "offer_values_cv_r2": {
+      "value": 0.991921728216829,
+      "n": 4009,
+      "unit": "R\u00b2",
+      "description": "offer values (Q_A, Q_B) CV R\u00b2 at the value site L3"
+    },
+    "value_sum_cv_r2": {
+      "value": 0.9875792328281959,
+      "n": 4009,
+      "unit": "R\u00b2",
+      "description": "Q_A + Q_B CV R\u00b2 at L3"
+    },
+    "value_gap_cv_r2": {
+      "value": 0.995942493687732,
+      "n": 4009,
+      "unit": "R\u00b2",
+      "description": "Q_A - Q_B CV R\u00b2 at L3"
+    },
+    "heldout_composed_P_r2": {
+      "value": 0.9262725742298291,
+      "n": 64422,
+      "unit": "R\u00b2",
+      "description": "withheld offers: P(X) composed from the decoded joint, pooled, L3"
+    },
+    "heldout_direct_D_r2": {
+      "value": 0.9906378178328178,
+      "n": 64422,
+      "unit": "R\u00b2",
+      "description": "withheld offers: Q(X) read directly, pooled, L3"
+    },
+    "twin_card_posterior_shift": {
+      "value": 0.009151429454837968,
+      "n": 7676,
+      "unit": "tangent",
+      "description": "median decoded posterior shift, card twin, L0"
+    },
+    "twin_card_value_shift": {
+      "value": 1.0242042808299852,
+      "n": 7676,
+      "unit": "payoff",
+      "description": "median decoded value shift, card twin, L3"
+    },
+    "twin_masks_posterior_shift": {
+      "value": 0.06048268110404828,
+      "n": 7676,
+      "unit": "tangent",
+      "description": "median decoded posterior shift, masks twin, L0"
+    },
+    "twin_masks_value_shift": {
+      "value": 0.8823012175520455,
+      "n": 7676,
+      "unit": "payoff",
+      "description": "median decoded value shift, masks twin, L3"
+    },
+    "twin_clues5_posterior_shift": {
+      "value": 0.5630147480844814,
+      "n": 7676,
+      "unit": "tangent",
+      "description": "median decoded posterior shift, clues5 twin, L0"
+    },
+    "twin_clues5_value_shift": {
+      "value": 0.37004592791707963,
+      "n": 7676,
+      "unit": "payoff",
+      "description": "median decoded value shift, clues5 twin, L3"
+    },
+    "posterior_steer_slope": {
+      "value": 0.8716302080411806,
+      "n": 7739,
+      "unit": "slope",
+      "description": "natural posterior steer through the joint subspace at L0: observed vs exact counterfactual"
+    },
+    "posterior_steer_control_slope": {
+      "value": 0.14688997682676486,
+      "n": 30956,
+      "unit": "slope",
+      "description": "matched isometric off-subspace control"
+    },
+    "value_endpoint_error_natural": {
+      "value": 0.13843110791400692,
+      "n": 7739,
+      "unit": "payoff",
+      "description": "median |decoded \u0394Q \u2212 implied \u0394Q| under the posterior steer"
+    },
+    "value_endpoint_error_control": {
+      "value": 0.5798105665225912,
+      "n": 30956,
+      "unit": "payoff",
+      "description": "same under the off-subspace control"
+    },
+    "value_sweep_slope": {
+      "value": 0.9610370742059949,
+      "n": 57192,
+      "unit": "slope",
+      "description": "12-direction value sweep at L3"
+    },
+    "value_sweep_control_slope": {
+      "value": -0.008180500853903034,
+      "n": 57192,
+      "unit": "slope",
+      "description": "matched-norm orthogonal control"
+    },
+    "posterior_rms_under_value_sweep": {
+      "value": 0.003270564447992746,
+      "n": 57192,
+      "unit": "tangent",
+      "description": "RMS decoded posterior shift at L3 under the value sweep"
+    },
+    "posterior_rms_under_posterior_steer": {
+      "value": 0.6862530864144886,
+      "n": 7739,
+      "unit": "tangent",
+      "description": "RMS decoded posterior shift at L3 under the posterior steer"
+    },
+    "mediation_insertion": {
+      "value": 0.9504401188780772,
+      "n": 7739,
+      "unit": "slope",
+      "description": "value-plane part of the posterior steer inserted alone: fraction of the effect carried"
+    },
+    "mediation_removal": {
+      "value": 0.06272803375792863,
+      "n": 7739,
+      "unit": "slope",
+      "description": "posterior steer with its value-plane part removed: fraction remaining"
+    },
+    "site_posterior_read": {
+      "value": 0,
+      "n": 1,
+      "unit": "layer",
+      "description": "posterior read site: blocks.0.hook_resid_post"
+    },
+    "site_posterior_write": {
+      "value": 0,
+      "n": 1,
+      "unit": "layer",
+      "description": "posterior write site: blocks.0.hook_resid_post"
+    },
+    "site_value_read": {
+      "value": 3,
+      "n": 1,
+      "unit": "layer",
+      "description": "value read site: blocks.3.hook_resid_post"
+    },
+    "site_value_write": {
+      "value": 3,
+      "n": 1,
+      "unit": "layer",
+      "description": "value write site: blocks.3.hook_resid_post"
+    }
+  },
+  "sites": {
+    "eta_site": "blocks.0.hook_resid_post",
+    "D_site": "blocks.3.hook_resid_post",
+    "eta_write": "blocks.0.hook_resid_post",
+    "D_write": "blocks.3.hook_resid_post",
+    "display": "blocks.3.hook_resid_post"
+  },
+  "cv": {
+    "blocks.0.hook_resid_pre": {
+      "eta": -0.0004203265133557732,
+      "D": -0.00031706805047626574,
+      "sum": -0.00025293899693346056,
+      "gap": -0.000376445864633812
+    },
+    "blocks.0.hook_resid_post": {
+      "eta": 0.9397398864411024,
+      "D": 0.015711144315413095,
+      "sum": 0.019846418675421695,
+      "gap": 0.0118822471327108
+    },
+    "blocks.1.hook_resid_post": {
+      "eta": 0.9148552413896613,
+      "D": 0.8339204261910704,
+      "sum": 0.8320513785807486,
+      "gap": 0.835650998459432
+    },
+    "blocks.2.hook_resid_post": {
+      "eta": 0.9025258442850437,
+      "D": 0.9451273308000095,
+      "sum": 0.9419357301173082,
+      "gap": 0.9480824698786846
+    },
+    "blocks.3.hook_resid_post": {
+      "eta": 0.8901957392056402,
+      "D": 0.991921728216829,
+      "sum": 0.9875792328281959,
+      "gap": 0.995942493687732
+    }
+  },
+  "scan": {
+    "eta": {
+      "blocks.0.hook_resid_post": 0.8857235385191445,
+      "blocks.1.hook_resid_post": 0.40148978359715704,
+      "blocks.2.hook_resid_post": 0.344991692558985,
+      "blocks.3.hook_resid_post": 0.012510849523119046
+    },
+    "D": {
+      "blocks.0.hook_resid_post": 0.17483587699485817,
+      "blocks.1.hook_resid_post": 0.4617397643189411,
+      "blocks.2.hook_resid_post": 0.5521526240679591,
+      "blocks.3.hook_resid_post": 0.9625415715516971
+    }
+  },
+  "n": {
+    "behavior": 8192,
+    "fit": 4096,
+    "plane": 2048,
+    "scan": 1024,
+    "eval": 8192,
+    "ctx": 1024
+  },
+  "n_controls": 4,
+  "n_heldout_masks": 64,
+  "checkpoint_sha256": "b995630c24ee0dcd029717b10cd05dd22a4adf96ab7dc921ed5c487de0582281",
+  "tangent_basis": "Helmert, 9 states"
+}

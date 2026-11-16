@@ -1,0 +1,91 @@
+{
+  "headline": {
+    "value_pcs_slope": {
+      "value": 0.9440828478846158,
+      "n": 86268,
+      "unit": "slope",
+      "description": "value ring at L2 through principal components 1\u20132"
+    },
+    "value_pcs_control_slope": {
+      "value": 0.006548726500125152,
+      "n": 86268,
+      "unit": "slope",
+      "description": "matched-norm ring in the orthogonal complement of components 1\u20132 at L2"
+    },
+    "posterior_A_pcs_slope": {
+      "value": 0.9971650533833809,
+      "n": 11592,
+      "unit": "slope",
+      "description": "natural posterior steer, factor A, at L0 through principal components 3\u20134"
+    },
+    "posterior_A_pcs_control_slope": {
+      "value": 0.0613262498957347,
+      "n": 139104,
+      "unit": "slope",
+      "description": "pooled slope of 12 isometric copies orthogonal to components 3\u20134, factor A"
+    },
+    "posterior_B_pcs_slope": {
+      "value": 0.991097761183951,
+      "n": 9289,
+      "unit": "slope",
+      "description": "natural posterior steer, factor B, at L0 through principal components 1\u20132"
+    },
+    "posterior_B_pcs_control_slope": {
+      "value": 0.07772908359803692,
+      "n": 111468,
+      "unit": "slope",
+      "description": "pooled slope of 12 isometric copies orthogonal to components 1\u20132, factor B"
+    }
+  },
+  "results": {
+    "value": {
+      "slope": 0.9440828478846158,
+      "control_slope": 0.006548726500125152,
+      "n": 86268,
+      "n_kept": 7189
+    },
+    "posterior": {
+      "A": {
+        "slope": 0.9971650533833809,
+        "control_slope": 0.0613262498957347,
+        "n": 11592,
+        "n_control": 139104,
+        "n_kept": 11592
+      },
+      "B": {
+        "slope": 0.991097761183951,
+        "control_slope": 0.07772908359803692,
+        "n": 9289,
+        "n_control": 111468,
+        "n_kept": 9289
+      }
+    }
+  },
+  "factor_pairs": {
+    "A": [
+      2,
+      3
+    ],
+    "B": [
+      0,
+      1
+    ]
+  },
+  "value_pcs": [
+    0,
+    1
+  ],
+  "sites": {
+    "value_write": "blocks.2.hook_resid_post",
+    "posterior_write": {
+      "A": "blocks.0.hook_resid_post",
+      "B": "blocks.0.hook_resid_post"
+    }
+  },
+  "n_eval": 16384,
+  "n_controls": 12,
+  "n_pca": {
+    "value_rows": 1606,
+    "posterior_rows": 2048
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "headline": {
+    "portrait_r2_etaA": {
+      "value": 0.9852803194675189,
+      "n": 5855,
+      "unit": "R\u00b2",
+      "description": "factor-M posterior R\u00b2 on eval episodes at the posterior site blocks.0.hook_resid_post"
+    },
+    "portrait_r2_etaB": {
+      "value": 0.9812299347679758,
+      "n": 5855,
+      "unit": "R\u00b2",
+      "description": "factor-N posterior R\u00b2 on eval episodes at the posterior site blocks.0.hook_resid_post"
+    },
+    "portrait_r2_D": {
+      "value": 0.994608564780748,
+      "n": 5855,
+      "unit": "R\u00b2",
+      "description": "offer-value R\u00b2 on eval episodes at the value site blocks.3.hook_resid_post"
+    },
+    "prop_composed_r2_pooled": {
+      "value": 0.9607610590893286,
+      "n": 2152,
+      "unit": "R\u00b2",
+      "description": "pooled R\u00b2 of composed P\u0302(X) over all withheld (offer, context) pairs at the display site"
+    },
+    "prop_direct_r2_pooled": {
+      "value": 0.9890346191596588,
+      "n": 2152,
+      "unit": "R\u00b2",
+      "description": "pooled R\u00b2 of direct Q\u0302(X) over all withheld (offer, context) pairs at the display site"
+    }
+  },
+  "withheld_classes": [],
+  "natural_r2_by_site": {
+    "blocks.0.hook_resid_post": {
+      "etaA": 0.9852803194675189,
+      "etaB": 0.9812299347679758,
+      "D": 0.010365006947542721
+    },
+    "blocks.1.hook_resid_post": {
+      "etaA": 0.978470157894965,
+      "etaB": 0.9703872010762322,
+      "D": 0.5588691766539171
+    },
+    "blocks.2.hook_resid_post": {
+      "etaA": 0.9746958476584271,
+      "etaB": 0.9655023030243628,
+      "D": 0.8173257873560078
+    },
+    "blocks.3.hook_resid_post": {
+      "etaA": 0.9684758590672062,
+      "etaB": 0.9605762587401949,
+      "D": 0.994608564780748
+    }
+  },
+  "n_eval": 8192,
+  "n_valid": 5855,
+  "n_ctx": 512,
+  "display_site": "blocks.3.hook_resid_post",
+  "read_sites": {
+    "posterior": "L0",
+    "value": "L3"
+  },
+  "portrait_sites": {
+    "posterior": "blocks.0.hook_resid_post",
+    "value": "blocks.3.hook_resid_post"
+  },
+  "masks_kept": [
+    7,
+    40,
+    45,
+    64,
+    73,
+    130
+  ],
+  "masks_skipped": [],
+  "prop_median_by_site": {
+    "blocks.0.hook_resid_post": {
+      "P": 0.9793530595056612,
+      "D": -0.04334601677210437
+    },
+    "blocks.1.hook_resid_post": {
+      "P": 0.9658703402007778,
+      "D": -0.0162633713197452
+    },
+    "blocks.2.hook_resid_post": {
+      "P": 0.962729572564337,
+      "D": 0.4930761730563748
+    },
+    "blocks.3.hook_resid_post": {
+      "P": 0.9563179750062771,
+      "D": 0.9900223243676705
+    }
+  }
+}

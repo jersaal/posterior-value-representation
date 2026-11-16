@@ -1,0 +1,2 @@
+{"name": "tiny_4l_2h_64d_c91", "n_layers": 4, "d_model": 64, "n_heads": 2, "d_head": 32,
+ "d_mlp": 256, "n_ctx": 91, "act_fn": "relu", "normalization_type": "LN"}

@@ -1,0 +1,46 @@
+{
+  "headline": {
+    "posterior_shift_median_card": {
+      "value": 0.010139148712265915,
+      "n": 4143,
+      "unit": "tangent",
+      "description": "median decoded posterior shift, card twin"
+    },
+    "value_shift_median_card": {
+      "value": 1.0423722702595335,
+      "n": 4143,
+      "unit": "utility",
+      "description": "median decoded value shift, card twin"
+    },
+    "posterior_shift_median_masks": {
+      "value": 0.021201405438429462,
+      "n": 4143,
+      "unit": "tangent",
+      "description": "median decoded posterior shift, masks twin"
+    },
+    "value_shift_median_masks": {
+      "value": 0.9093401489420051,
+      "n": 4143,
+      "unit": "utility",
+      "description": "median decoded value shift, masks twin"
+    },
+    "posterior_shift_median_clues5": {
+      "value": 0.878686950251829,
+      "n": 4143,
+      "unit": "tangent",
+      "description": "median decoded posterior shift, clues5 twin"
+    },
+    "value_shift_median_clues5": {
+      "value": 0.5000199670748,
+      "n": 4143,
+      "unit": "utility",
+      "description": "median decoded value shift, clues5 twin"
+    }
+  },
+  "n_eval": 8192,
+  "n_kept": 4143,
+  "read_sites": {
+    "posterior": "blocks.0.hook_resid_post",
+    "value": "blocks.3.hook_resid_post"
+  }
+}

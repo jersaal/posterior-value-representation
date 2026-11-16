@@ -1,0 +1,400 @@
+{
+  "headline": {
+    "posterior_r2_etaA": {
+      "value": 0.9978666119697321,
+      "n": 12644,
+      "unit": "R\u00b2",
+      "description": "factor-M posterior CV R\u00b2 at the posterior site blocks.0.hook_resid_post"
+    },
+    "posterior_r2_etaB": {
+      "value": 0.9926682228016246,
+      "n": 12644,
+      "unit": "R\u00b2",
+      "description": "factor-N posterior CV R\u00b2 at the posterior site blocks.0.hook_resid_post"
+    },
+    "posterior_cv_r2": {
+      "value": 0.9952674173856784,
+      "n": 12644,
+      "unit": "R\u00b2",
+      "description": "mean posterior CV R\u00b2 at the posterior site blocks.0.hook_resid_post"
+    },
+    "value_cv_r2": {
+      "value": 0.9677253763212631,
+      "n": 12644,
+      "unit": "R\u00b2",
+      "description": "value CV R\u00b2 at the value site blocks.16.hook_resid_post"
+    },
+    "posterior_read_layer": {
+      "value": 0,
+      "n": 3199,
+      "unit": "layer",
+      "description": "posterior read site: earliest layer with mean factor CV R\u00b2 >= 0.95"
+    },
+    "value_read_layer": {
+      "value": 16,
+      "n": 3199,
+      "unit": "layer",
+      "description": "value read site: earliest layer with offer-value CV R\u00b2 >= 0.95"
+    },
+    "posterior_write_layer_etaA": {
+      "value": 14,
+      "n": 1024,
+      "unit": "layer",
+      "description": "factor-M posterior write site: earliest layer whose steering slope reaches 0.95 of the maximum over layers"
+    },
+    "posterior_write_layer_etaB": {
+      "value": 11,
+      "n": 1024,
+      "unit": "layer",
+      "description": "factor-N posterior write site: earliest layer whose steering slope reaches 0.95 of the maximum over layers"
+    },
+    "value_write_layer": {
+      "value": 19,
+      "n": 1024,
+      "unit": "layer",
+      "description": "value write site: earliest layer whose steering slope reaches 0.95 of the maximum over layers"
+    }
+  },
+  "cv": {
+    "blocks.0.hook_resid_pre": {
+      "etaA": -3.947240473523017e-05,
+      "etaB": -0.000250600125766276,
+      "D": -0.00015158120886060722,
+      "D_A": -0.0001762208342672711,
+      "D_B": -0.000126898843519907
+    },
+    "blocks.0.hook_resid_post": {
+      "etaA": 0.9978666119697321,
+      "etaB": 0.9926682228016246,
+      "D": -0.045606882366139745,
+      "D_A": -0.03643830603488629,
+      "D_B": -0.05479136252469985
+    },
+    "blocks.1.hook_resid_post": {
+      "etaA": 0.9984344702119534,
+      "etaB": 0.9959883321639298,
+      "D": -0.05132384178455185,
+      "D_A": -0.03633315653962432,
+      "D_B": -0.06634052989630757
+    },
+    "blocks.2.hook_resid_post": {
+      "etaA": 0.9979748690757209,
+      "etaB": 0.9965425951202318,
+      "D": -0.04425475160546233,
+      "D_A": -0.029784516822529916,
+      "D_B": -0.05875008648101088
+    },
+    "blocks.3.hook_resid_post": {
+      "etaA": 0.997661915187169,
+      "etaB": 0.9962961338737866,
+      "D": -0.04870340347692537,
+      "D_A": -0.03358096820408152,
+      "D_B": -0.06385207015040839
+    },
+    "blocks.4.hook_resid_post": {
+      "etaA": 0.9978928171099328,
+      "etaB": 0.9967474566238819,
+      "D": -0.04440231173418696,
+      "D_A": -0.024298507282288107,
+      "D_B": -0.06454098827774546
+    },
+    "blocks.5.hook_resid_post": {
+      "etaA": 0.9987103476911274,
+      "etaB": 0.9984495796760946,
+      "D": -0.030334980462577876,
+      "D_A": -0.005753229307837504,
+      "D_B": -0.054959371162558446
+    },
+    "blocks.6.hook_resid_post": {
+      "etaA": 0.9986834056061051,
+      "etaB": 0.9985120530834312,
+      "D": 0.0880007316343342,
+      "D_A": 0.16778618363449094,
+      "D_B": 0.008076883660323997
+    },
+    "blocks.7.hook_resid_post": {
+      "etaA": 0.9989122204196362,
+      "etaB": 0.9987512282311312,
+      "D": 0.08562406755581842,
+      "D_A": 0.16331719317365878,
+      "D_B": 0.007796175316845622
+    },
+    "blocks.8.hook_resid_post": {
+      "etaA": 0.9989239787834908,
+      "etaB": 0.9987780632827132,
+      "D": 0.09891295920398213,
+      "D_A": 0.1870180995377304,
+      "D_B": 0.010654991551564796
+    },
+    "blocks.9.hook_resid_post": {
+      "etaA": 0.9989774597127942,
+      "etaB": 0.9987998947254612,
+      "D": 0.10413410038970561,
+      "D_A": 0.20312920947855428,
+      "D_B": 0.004967274224803364
+    },
+    "blocks.10.hook_resid_post": {
+      "etaA": 0.9991558386506972,
+      "etaB": 0.9990227200993649,
+      "D": 0.11939128122183973,
+      "D_A": 0.22951817635100114,
+      "D_B": 0.009073359802587166
+    },
+    "blocks.11.hook_resid_post": {
+      "etaA": 0.9992395904908496,
+      "etaB": 0.9990614073291996,
+      "D": 0.2112588596476479,
+      "D_A": 0.28060018823767063,
+      "D_B": 0.14179725147710098
+    },
+    "blocks.12.hook_resid_post": {
+      "etaA": 0.9993104260402269,
+      "etaB": 0.9990765892195449,
+      "D": 0.33235566894894764,
+      "D_A": 0.31733447346626387,
+      "D_B": 0.3474029202215677
+    },
+    "blocks.13.hook_resid_post": {
+      "etaA": 0.9992946428470265,
+      "etaB": 0.9990322977339801,
+      "D": 0.5576940707215419,
+      "D_A": 0.38986720815732623,
+      "D_B": 0.7258120460325188
+    },
+    "blocks.14.hook_resid_post": {
+      "etaA": 0.999301113489,
+      "etaB": 0.9990381800300754,
+      "D": 0.5778589529905067,
+      "D_A": 0.40464738978103965,
+      "D_B": 0.7513709692571677
+    },
+    "blocks.15.hook_resid_post": {
+      "etaA": 0.9991188645375647,
+      "etaB": 0.9988539397796109,
+      "D": 0.8095846329394261,
+      "D_A": 0.6237502458144062,
+      "D_B": 0.9957413686923835
+    },
+    "blocks.16.hook_resid_post": {
+      "etaA": 0.9988563025911243,
+      "etaB": 0.9985853288658414,
+      "D": 0.9677253763212631,
+      "D_A": 0.9392353508809037,
+      "D_B": 0.9962648206057485
+    },
+    "blocks.17.hook_resid_post": {
+      "etaA": 0.9987392460959783,
+      "etaB": 0.9984357958501827,
+      "D": 0.9717182864372476,
+      "D_A": 0.9457334741551142,
+      "D_B": 0.9977481720167181
+    },
+    "blocks.18.hook_resid_post": {
+      "etaA": 0.9984004181726779,
+      "etaB": 0.998052879377449,
+      "D": 0.9971170237431748,
+      "D_A": 0.9959535088721356,
+      "D_B": 0.9982825568489878
+    },
+    "blocks.19.hook_resid_post": {
+      "etaA": 0.9980925619733902,
+      "etaB": 0.9977040268085327,
+      "D": 0.9981165434500545,
+      "D_A": 0.9979829225662655,
+      "D_B": 0.9982503961128444
+    },
+    "blocks.20.hook_resid_post": {
+      "etaA": 0.9978146474335841,
+      "etaB": 0.997280417320323,
+      "D": 0.9981740071232108,
+      "D_A": 0.9981262379123135,
+      "D_B": 0.9982218591946584
+    },
+    "blocks.21.hook_resid_post": {
+      "etaA": 0.9975625028783911,
+      "etaB": 0.996931693750608,
+      "D": 0.9981789235868412,
+      "D_A": 0.9981390961256958,
+      "D_B": 0.998218820132765
+    },
+    "blocks.22.hook_resid_post": {
+      "etaA": 0.9974098324917483,
+      "etaB": 0.9967515249769514,
+      "D": 0.9981740917738186,
+      "D_A": 0.9981367960500133,
+      "D_B": 0.9982114521908465
+    },
+    "blocks.23.hook_resid_post": {
+      "etaA": 0.9972475630699009,
+      "etaB": 0.99660415949548,
+      "D": 0.9981678384451199,
+      "D_A": 0.9981426892641564,
+      "D_B": 0.9981930312498932
+    },
+    "blocks.24.hook_resid_post": {
+      "etaA": 0.9970860207835625,
+      "etaB": 0.9963602939742372,
+      "D": 0.9981706701205957,
+      "D_A": 0.9981222236634445,
+      "D_B": 0.9982192006130497
+    },
+    "blocks.25.hook_resid_post": {
+      "etaA": 0.9970262495871747,
+      "etaB": 0.996303579380619,
+      "D": 0.9981702394258409,
+      "D_A": 0.9981145084998424,
+      "D_B": 0.9982260670227937
+    },
+    "blocks.26.hook_resid_post": {
+      "etaA": 0.9969769754626501,
+      "etaB": 0.9961745509650225,
+      "D": 0.99815329312465,
+      "D_A": 0.998104357928146,
+      "D_B": 0.9982023132042247
+    },
+    "blocks.27.hook_resid_post": {
+      "etaA": 0.9969070095595538,
+      "etaB": 0.9960610362942349,
+      "D": 0.9981437095140638,
+      "D_A": 0.9980826674449351,
+      "D_B": 0.9982048574668642
+    }
+  },
+  "sites": {
+    "posterior": "blocks.0.hook_resid_post",
+    "value": "blocks.16.hook_resid_post",
+    "value_write": "blocks.19.hook_resid_post",
+    "posterior_write": {
+      "A": "blocks.14.hook_resid_post",
+      "B": "blocks.11.hook_resid_post"
+    },
+    "display": "blocks.27.hook_resid_post"
+  },
+  "write_fraction": 0.95,
+  "write_scan_slopes": {
+    "own": {
+      "blocks.0.hook_resid_post": -8.936900902934155e-06,
+      "blocks.1.hook_resid_post": -0.0001533249041673114,
+      "blocks.2.hook_resid_post": -0.0001399764879821646,
+      "blocks.3.hook_resid_post": -0.00016059714829846125,
+      "blocks.4.hook_resid_post": -0.00020552893449336457,
+      "blocks.5.hook_resid_post": -0.00022862682765556258,
+      "blocks.6.hook_resid_post": -0.00014481329709403642,
+      "blocks.7.hook_resid_post": -0.00019596834475254615,
+      "blocks.8.hook_resid_post": -0.00020902109619412535,
+      "blocks.9.hook_resid_post": -0.00022188512591986268,
+      "blocks.10.hook_resid_post": -0.0002250956248849447,
+      "blocks.11.hook_resid_post": -0.00022637339475346408,
+      "blocks.12.hook_resid_post": -0.00013575426589554967,
+      "blocks.13.hook_resid_post": 0.0025898069949778033,
+      "blocks.14.hook_resid_post": 0.0027687875535221803,
+      "blocks.15.hook_resid_post": 0.32689012049425925,
+      "blocks.16.hook_resid_post": 0.37082815966575483,
+      "blocks.17.hook_resid_post": 0.3798681912393199,
+      "blocks.18.hook_resid_post": 0.6311290466761692,
+      "blocks.19.hook_resid_post": 0.7854545483229285,
+      "blocks.20.hook_resid_post": 0.8083855145966192,
+      "blocks.21.hook_resid_post": 0.8021595170767817,
+      "blocks.22.hook_resid_post": 0.7943252728490822,
+      "blocks.23.hook_resid_post": 0.796292463925229,
+      "blocks.24.hook_resid_post": 0.8208393761633392,
+      "blocks.25.hook_resid_post": 0.8237546523829146,
+      "blocks.26.hook_resid_post": 0.8129119403156122,
+      "blocks.27.hook_resid_post": 0.7892762314840669
+    },
+    "final_plane": {
+      "blocks.0.hook_resid_post": 1.903064607995161,
+      "blocks.1.hook_resid_post": 2.632024015143604,
+      "blocks.2.hook_resid_post": 2.5725772519140766,
+      "blocks.3.hook_resid_post": 2.5364893555363555,
+      "blocks.4.hook_resid_post": 2.460561000111478,
+      "blocks.5.hook_resid_post": 2.3414943531748236,
+      "blocks.6.hook_resid_post": 2.2212657096285127,
+      "blocks.7.hook_resid_post": 2.1810849492825266,
+      "blocks.8.hook_resid_post": 2.1436020404187466,
+      "blocks.9.hook_resid_post": 2.079620583000351,
+      "blocks.10.hook_resid_post": 2.0273998485590314,
+      "blocks.11.hook_resid_post": 2.0156666487110697,
+      "blocks.12.hook_resid_post": 2.0139117071754913,
+      "blocks.13.hook_resid_post": 2.0052493323346656,
+      "blocks.14.hook_resid_post": 2.023144068535802,
+      "blocks.15.hook_resid_post": 1.9945812890007453,
+      "blocks.16.hook_resid_post": 1.9305467810628587,
+      "blocks.17.hook_resid_post": 1.9009894472194588,
+      "blocks.18.hook_resid_post": 1.7788016593496254,
+      "blocks.19.hook_resid_post": 1.5552448500258875,
+      "blocks.20.hook_resid_post": 1.3794102561575425,
+      "blocks.21.hook_resid_post": 1.2293854563589628,
+      "blocks.22.hook_resid_post": 1.1328969119449284,
+      "blocks.23.hook_resid_post": 1.0231926587980549,
+      "blocks.24.hook_resid_post": 1.0434328722788977,
+      "blocks.25.hook_resid_post": 0.9638971562839634,
+      "blocks.26.hook_resid_post": 0.9342593412118094,
+      "blocks.27.hook_resid_post": 0.7892762314840669
+    }
+  },
+  "posterior_write_scan_slopes": {
+    "A": {
+      "blocks.0.hook_resid_post": 0.011638249381541151,
+      "blocks.1.hook_resid_post": 0.12378730661824927,
+      "blocks.2.hook_resid_post": 0.18347964150170926,
+      "blocks.3.hook_resid_post": 0.2017100039061689,
+      "blocks.4.hook_resid_post": 0.2210759986405266,
+      "blocks.5.hook_resid_post": 0.3936852396882129,
+      "blocks.6.hook_resid_post": 0.4093188444426518,
+      "blocks.7.hook_resid_post": 0.48293465810394354,
+      "blocks.8.hook_resid_post": 0.4937331234569043,
+      "blocks.9.hook_resid_post": 0.51390304153002,
+      "blocks.10.hook_resid_post": 0.596134061427855,
+      "blocks.11.hook_resid_post": 0.6328659958422701,
+      "blocks.12.hook_resid_post": 0.7007628056832511,
+      "blocks.13.hook_resid_post": 0.7133603764424727,
+      "blocks.14.hook_resid_post": 0.7691239373692433,
+      "blocks.15.hook_resid_post": 0.42142684816810044,
+      "blocks.16.hook_resid_post": 0.366639865141793,
+      "blocks.17.hook_resid_post": 0.39711197641177537,
+      "blocks.18.hook_resid_post": 0.11142102725509076,
+      "blocks.19.hook_resid_post": 0.03009868259181301,
+      "blocks.20.hook_resid_post": 0.009620878856466715,
+      "blocks.21.hook_resid_post": 0.007818698671167962,
+      "blocks.22.hook_resid_post": 0.0070267302226290265,
+      "blocks.23.hook_resid_post": 0.0072464506524230815,
+      "blocks.24.hook_resid_post": 0.0004653028039798273,
+      "blocks.25.hook_resid_post": 0.00032152516114555477,
+      "blocks.26.hook_resid_post": 0.0004956420048338267,
+      "blocks.27.hook_resid_post": 0.0008806809208398422
+    },
+    "B": {
+      "blocks.0.hook_resid_post": 0.012664840259243814,
+      "blocks.1.hook_resid_post": 0.26448655282559563,
+      "blocks.2.hook_resid_post": 0.3648507945587587,
+      "blocks.3.hook_resid_post": 0.3818047565159685,
+      "blocks.4.hook_resid_post": 0.4030148624436622,
+      "blocks.5.hook_resid_post": 0.6527006668170963,
+      "blocks.6.hook_resid_post": 0.662644094262039,
+      "blocks.7.hook_resid_post": 0.721578896812998,
+      "blocks.8.hook_resid_post": 0.7256067432710236,
+      "blocks.9.hook_resid_post": 0.7352621319173706,
+      "blocks.10.hook_resid_post": 0.7885130627846547,
+      "blocks.11.hook_resid_post": 0.8031556791195762,
+      "blocks.12.hook_resid_post": 0.8240964452599117,
+      "blocks.13.hook_resid_post": 0.8258516224027881,
+      "blocks.14.hook_resid_post": 0.835995066265092,
+      "blocks.15.hook_resid_post": 0.4781721382973738,
+      "blocks.16.hook_resid_post": 0.42288224683348075,
+      "blocks.17.hook_resid_post": 0.43142284988965907,
+      "blocks.18.hook_resid_post": 0.1576823280397615,
+      "blocks.19.hook_resid_post": 0.03625904535006706,
+      "blocks.20.hook_resid_post": 0.01046538211997884,
+      "blocks.21.hook_resid_post": 0.007709115024183543,
+      "blocks.22.hook_resid_post": 0.006752034428116025,
+      "blocks.23.hook_resid_post": 0.006813922363627332,
+      "blocks.24.hook_resid_post": -0.0004678210867678759,
+      "blocks.25.hook_resid_post": -0.0010820652388819855,
+      "blocks.26.hook_resid_post": -0.0010676730462189322,
+      "blocks.27.hook_resid_post": -0.0012811405387300942
+    }
+  },
+  "n_fit": 16384,
+  "n_valid": 12644
+}

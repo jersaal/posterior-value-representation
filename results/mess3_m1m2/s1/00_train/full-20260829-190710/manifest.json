@@ -1,0 +1,46 @@
+{
+  "experiment": "00_train",
+  "study": "mess3_m1m2/s1",
+  "spec_hashes": {
+    "study": "db99ee23e1f9e16c6768fe4d04e7821e18d03b5327beebc2cf40cae60c95bdc6",
+    "arch": "58bacef05870de3ad7065e2a1e4d4c2a23e064463c544f76fd17e74ccfc97247",
+    "training": "2ef98da14b2d7c6682fb72f2b78ab6be56cd03be0cc5b6800b9f4466a4504d20",
+    "world": "c22e08ab32c55ff92ec4e58867875275c905febc02226aa251da565f07872d4a",
+    "hmm:mess3_fwh_m1": "43ee1556e4b09836ea84970a21cda2479272327c7fe7874a10cd4b2050e67038",
+    "hmm:mess3_fwh_m2": "64559d88374d05d83e0d4370c39d080ae779fdb82f550b5a9066b44e4c7f74dd"
+  },
+  "argv": [
+    "--study",
+    "mess3_m1m2/s1",
+    "--device",
+    "cuda"
+  ],
+  "seeds": {
+    "model_init": 20000001,
+    "data_stream_base": 21000000,
+    "substream_rule": "episodes seed=data+step; actions default_rng([data, step, 0]); rewards default_rng([data, step, 1])"
+  },
+  "runtime_versions": {
+    "torch": "2.12.0",
+    "transformer-lens": "3.3.0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "scikit-learn": "1.9.0",
+    "python": "3.12.3"
+  },
+  "device": "cuda",
+  "start_time": "2026-08-29T19:07:10+0000",
+  "end_time": "2026-08-29T22:24:06+0000",
+  "force_used": false,
+  "backend": {
+    "gpu_name": "NVIDIA A40"
+  },
+  "checkpoint": {
+    "path": "results/mess3_m1m2/s1/00_train/full-20260829-190710/checkpoint/weights.pt",
+    "sha256": "de8e2c3cbcc17c7d8b0eec67c268a1e5393b349205ada5c3e55cad4b782a01f6"
+  },
+  "wall_s": 11814.6,
+  "num_steps": 24000,
+  "loss": "reinforce_entropy"
+}

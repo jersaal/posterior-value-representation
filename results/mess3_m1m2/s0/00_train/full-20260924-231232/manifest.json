@@ -1,0 +1,165 @@
+{
+  "experiment": "00_train",
+  "study": "mess3_m1m2/s0",
+  "spec_hashes": {
+    "study": "cdbca124c9c1779796e03c11d2ec1a15f3cd38865450d0fb109ce990cf2b67f8",
+    "arch": "58bacef05870de3ad7065e2a1e4d4c2a23e064463c544f76fd17e74ccfc97247",
+    "training": "2ef98da14b2d7c6682fb72f2b78ab6be56cd03be0cc5b6800b9f4466a4504d20",
+    "world": "c22e08ab32c55ff92ec4e58867875275c905febc02226aa251da565f07872d4a",
+    "hmm:mess3_fwh_m1": "43ee1556e4b09836ea84970a21cda2479272327c7fe7874a10cd4b2050e67038",
+    "hmm:mess3_fwh_m2": "64559d88374d05d83e0d4370c39d080ae779fdb82f550b5a9066b44e4c7f74dd"
+  },
+  "argv": [
+    "--study",
+    "mess3_m1m2/s0",
+    "--snapshots",
+    "--device",
+    "cuda"
+  ],
+  "seeds": {
+    "model_init": 20100001,
+    "data_stream_base": 21100000,
+    "substream_rule": "episodes seed=data+step; actions default_rng([data, step, 0]); rewards default_rng([data, step, 1])"
+  },
+  "runtime_versions": {
+    "torch": "2.12.0",
+    "transformer-lens": "3.3.0",
+    "transformers": "5.16.1",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "scikit-learn": "1.9.0",
+    "python": "3.12.3"
+  },
+  "device": "cuda",
+  "start_time": "2026-09-24T23:12:32+0000",
+  "end_time": "2026-09-25T01:08:48+0000",
+  "force_used": false,
+  "backend": {
+    "gpu_name": "NVIDIA A40"
+  },
+  "checkpoint": {
+    "path": "results/mess3_m1m2/s0/00_train/full-20260924-231232/checkpoint/weights.pt",
+    "sha256": "850156d0fbe48fe45f1800c6bf4e487ed12248a717983a99384ecca0c2cf1046"
+  },
+  "loss": "reinforce_entropy",
+  "snapshots": [
+    {
+      "step": 0,
+      "file": "step_00000.pt",
+      "sha256": "c0c24e663ed763ebb36afa9a7f68d750d350156bc4b60e414739fc4ccbb68d3f"
+    },
+    {
+      "step": 1,
+      "file": "step_00001.pt",
+      "sha256": "8771dac4e9033d6f64a8a21c98c2dd43c9dc003b51b7b57cb06f3695281d23a7"
+    },
+    {
+      "step": 2,
+      "file": "step_00002.pt",
+      "sha256": "4614f853fa0860dde227d1381739ad7af0dae5d97100c0b098dddff81740e245"
+    },
+    {
+      "step": 4,
+      "file": "step_00004.pt",
+      "sha256": "02ee86aa3f071a295e4ab106d919682dd8ef56f4c197548b8c4de5a63c17deaf"
+    },
+    {
+      "step": 8,
+      "file": "step_00008.pt",
+      "sha256": "d1bd33bae285ce4cde776a79ae2f49a9392bc55c9a24f3aeaeccbf79346534bd"
+    },
+    {
+      "step": 16,
+      "file": "step_00016.pt",
+      "sha256": "de479efa3c48dcc6459b145319f5268e9f2585a2fbbc4414819c4fcb3c0a235c"
+    },
+    {
+      "step": 32,
+      "file": "step_00032.pt",
+      "sha256": "dd0bf6023c0ec3ef0390c49d19b135954708d466e52d8e546a98c2c2bf48402b"
+    },
+    {
+      "step": 64,
+      "file": "step_00064.pt",
+      "sha256": "f6e1fba261fb0a0a61aa3bb2d210d9d62129743b2294a949de750395add30d4e"
+    },
+    {
+      "step": 128,
+      "file": "step_00128.pt",
+      "sha256": "1a5832c8fe6360fd5cc71cd33b9021e420cade9b6aa2df105589dfc2681e0591"
+    },
+    {
+      "step": 256,
+      "file": "step_00256.pt",
+      "sha256": "af3ac379fe6d6b4e6c9c08295fc571764cf232c1fce5a78479c671144425468b"
+    },
+    {
+      "step": 512,
+      "file": "step_00512.pt",
+      "sha256": "c71387ace7c8b549c28b2ac15081494ff491bcb54bd81b4627515098a85ec09a"
+    },
+    {
+      "step": 1000,
+      "file": "step_01000.pt",
+      "sha256": "2d10b7aae0219478526647238e7122efcb7f3fd41abc7113c287a0df5a5e741b"
+    },
+    {
+      "step": 1500,
+      "file": "step_01500.pt",
+      "sha256": "6f99242b44b6c01a8f0563985fe6a3ecbca60e76e76ae8689e95960a6ce5b939"
+    },
+    {
+      "step": 2000,
+      "file": "step_02000.pt",
+      "sha256": "073b4483a41164fa74f0c7ce9c77189bd764c9057d4c9c23a4e9cc6684ef0c30"
+    },
+    {
+      "step": 3000,
+      "file": "step_03000.pt",
+      "sha256": "305cdf0d46a129ded3a906454255d7f72fa2f93f4a7fb6cf44289e165d617fe9"
+    },
+    {
+      "step": 4000,
+      "file": "step_04000.pt",
+      "sha256": "f44eb73f7ecb1fc88fde117493d6fbaef8338cc11a11d6169dbe5a977e984e64"
+    },
+    {
+      "step": 6000,
+      "file": "step_06000.pt",
+      "sha256": "50b24225559fb4aa9e59e3e0f2417c66441802c19b4ddd7fd9ce098afb1cb348"
+    },
+    {
+      "step": 8000,
+      "file": "step_08000.pt",
+      "sha256": "cd3e9e37122524bcc78421caf2d732e8222ebf950c0a04b340b180bffabac3e8"
+    },
+    {
+      "step": 10000,
+      "file": "step_10000.pt",
+      "sha256": "43620b33cd1a75144769f361ef17bf809bb4c816f360f6643bd29d91d3bb798b"
+    },
+    {
+      "step": 12000,
+      "file": "step_12000.pt",
+      "sha256": "d66d4d6af9c59c84e8c6bef6c9988148e5fc21ac65b4b3fd3aa84b7900eedb2f"
+    },
+    {
+      "step": 16000,
+      "file": "step_16000.pt",
+      "sha256": "08f933153dff57f4071ae314e0e5d7aadd4cc0c0939ffdf14c924b7b0608986d"
+    },
+    {
+      "step": 20000,
+      "file": "step_20000.pt",
+      "sha256": "78cb958816f5dc18c9e54fc04676caa66b72956fe44ad6977e5386d3adfbe0e9"
+    },
+    {
+      "step": 24000,
+      "file": "step_24000.pt",
+      "sha256": "a682b0e22d27025a1a668bff1eff2bad69e47204be2f9c165875eb83c77c8c38"
+    }
+  ],
+  "wall_s": 6975.1,
+  "num_steps": 24000
+}

@@ -1,0 +1,8 @@
+{
+  "name": "mess3_m1m2_products_withheld",
+  "factors": ["mess3_fwh_m1", "mess3_fwh_m2"],
+  "beta": 4.0,
+  "levels": [-1, 0, 1],
+  "heldout_strata": ["rect"],
+  "note": "Held-out structural class variant of mess3_m1m2: every product set U x W (the 27 'rect' masks) is withheld from training in addition to the standard 64; held-out masks total 64 + 24. Everything else identical."
+}

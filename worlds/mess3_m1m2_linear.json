@@ -1,0 +1,8 @@
+{
+  "name": "mess3_m1m2_linear",
+  "factors": ["mess3_fwh_m1", "mess3_fwh_m2"],
+  "beta": 12.0,
+  "levels": [-1, 0, 1],
+  "reward": "mass",
+  "note": "Standard (linear) reward variant of mess3_m1m2: the reward is the payoff of a state drawn from the full posterior if that state lies in the chosen offer, else 0, so the value is the payoff mass m(X), linear in the posterior. beta = 12 matches the target policy's mean entropy to that of mess3_m1m2. Everything else identical."
+}

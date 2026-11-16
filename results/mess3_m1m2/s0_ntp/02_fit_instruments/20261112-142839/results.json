@@ -1,0 +1,88 @@
+{
+  "headline": {
+    "posterior_r2_etaA": {
+      "value": 0.995573103122538,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor-M posterior CV R\u00b2 at the posterior site blocks.0.hook_resid_post"
+    },
+    "posterior_r2_etaB": {
+      "value": 0.9967221847802835,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor-N posterior CV R\u00b2 at the posterior site blocks.0.hook_resid_post"
+    },
+    "posterior_cv_r2": {
+      "value": 0.9961476439514108,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "mean of the two factor-posterior CV R\u00b2 at the posterior site blocks.0.hook_resid_post"
+    },
+    "value_cv_r2": {
+      "value": 0.00257405671120714,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "offer-value CV R\u00b2 (the pair pooled) at the value site blocks.0.hook_resid_post"
+    },
+    "posterior_read_layer": {
+      "value": 0,
+      "n": 3199,
+      "unit": "layer",
+      "description": "posterior read site: earliest layer with mean factor CV R\u00b2 >= 0.95"
+    },
+    "value_read_layer": {
+      "value": 0,
+      "n": 3199,
+      "unit": "layer",
+      "description": "value read site: earliest layer with offer-value CV R\u00b2 >= 0.95 (not reached: best layer)"
+    },
+    "value_cv_r2_max_over_layers": {
+      "value": 0.00257405671120714,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "largest offer-value CV R\u00b2 over the post-block layers"
+    }
+  },
+  "cv": {
+    "blocks.0.hook_resid_pre": {
+      "etaA": -0.0011621098946825725,
+      "etaB": -0.0008616865481678726,
+      "D": -0.00027234912914342324
+    },
+    "blocks.0.hook_resid_post": {
+      "etaA": 0.995573103122538,
+      "etaB": 0.9967221847802835,
+      "D": 0.00257405671120714
+    },
+    "blocks.1.hook_resid_post": {
+      "etaA": 0.9956663460778835,
+      "etaB": 0.997550168219254,
+      "D": -0.012525132942591277
+    },
+    "blocks.2.hook_resid_post": {
+      "etaA": 0.9964281579726978,
+      "etaB": 0.9979794099925189,
+      "D": -0.013301824604405876
+    },
+    "blocks.3.hook_resid_post": {
+      "etaA": 0.9968436597992058,
+      "etaB": 0.9983350430882597,
+      "D": -0.01199390103699538
+    }
+  },
+  "sites": {
+    "posterior": "blocks.0.hook_resid_post",
+    "value": "blocks.0.hook_resid_post",
+    "value_write": null,
+    "posterior_write": null,
+    "display": "blocks.3.hook_resid_post"
+  },
+  "formation_r2": 0.95,
+  "write_fraction": 0.95,
+  "reads_only": true,
+  "write_scan_slopes": null,
+  "posterior_write_scan_slopes": null,
+  "n_fit": 4096,
+  "n_scan": 1024,
+  "n_valid": 3199
+}

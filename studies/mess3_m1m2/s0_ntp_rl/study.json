@@ -1,0 +1,25 @@
+{
+  "world": "mess3_m1m2",
+  "seed_tag": "s0_ntp_rl",
+  "arch": "configs/arch/tiny_4l_2h_64d_c91.json",
+  "training": "configs/training/reinforce_24k.json",
+  "init_from": "mess3_m1m2/s0_ntp",
+  "seeds": {
+    "model_init": 20100001,
+    "data_stream_base": 21100000,
+    "post_training_eval": 23100001,
+    "fit": 23600001,
+    "eval": 23600002,
+    "smoke_model_init": 29000001,
+    "smoke_data_stream_base": 29100000
+  },
+  "checkpoint": {
+    "path": "results/mess3_m1m2/s0_ntp_rl/00_train/full-20260923-031514/checkpoint/weights.pt",
+    "sha256": "13ce15a0b86f6db0c40b666621160cec9f21b88f8035625074c9586868453184"
+  },
+  "instruments": {
+    "path": "studies/mess3_m1m2/s0_ntp_rl/instruments/instruments.json",
+    "artifact_sha256": "b0729c43bd13ef8f25ddc2068e05e274b6c76d278f1029aab40a156c8f5efe72"
+  },
+  "note": "Stage 2 of the two-stage model: the toy model's REINFORCE training (same config, same episode, choice and reward streams) started from s0_ntp's pinned checkpoint. Differs from s0 only in the starting weights."
+}

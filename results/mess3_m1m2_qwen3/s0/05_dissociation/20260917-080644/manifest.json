@@ -1,0 +1,41 @@
+{
+  "experiment": "05_dissociation",
+  "study": "mess3_m1m2_qwen3/s0",
+  "spec_hashes": {
+    "study": "b40e35d759f0c4adf48af0a679b9186fc4f27e9fa3175da2f06bef8d8ac7b189",
+    "arch": "af5a4fdc9f8aba8293e146290ff9453dd7ae7ce92508f2f7ad8349d78d156737",
+    "training": "60967b6a0b4bfffc3b368c0df2f2c7be51e639e005c504e2079c711766f8e8ec",
+    "world": "c22e08ab32c55ff92ec4e58867875275c905febc02226aa251da565f07872d4a",
+    "hmm:mess3_fwh_m1": "43ee1556e4b09836ea84970a21cda2479272327c7fe7874a10cd4b2050e67038",
+    "hmm:mess3_fwh_m2": "64559d88374d05d83e0d4370c39d080ae779fdb82f550b5a9066b44e4c7f74dd"
+  },
+  "argv": [
+    "--study",
+    "mess3_m1m2_qwen3/s0",
+    "--device",
+    "cuda"
+  ],
+  "seeds": {
+    "eval": 23600002,
+    "donor": 23600003
+  },
+  "runtime_versions": {
+    "torch": "2.12.0",
+    "transformer-lens": "3.3.0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "scikit-learn": "1.9.0",
+    "python": "3.12.3"
+  },
+  "device": "cuda",
+  "start_time": "2026-09-17T08:06:44+0000",
+  "end_time": "2026-09-17T08:15:48+0000",
+  "force_used": false,
+  "figures": [],
+  "checkpoint": {
+    "path": "results/mess3_m1m2_qwen3/s0/00_train/full-20260916-194110/checkpoint/weights.pt",
+    "sha256": "6596643ae8fb72ccdbfbfa6530a6d90112bb886651fbf4aeb621718adc90f297"
+  },
+  "instruments_sha256": "169c5f4bad1d5f519f5fa2a74fc261e1b3632641bd7bf16782595c37f38137ed"
+}

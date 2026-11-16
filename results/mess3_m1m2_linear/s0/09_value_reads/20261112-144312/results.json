@@ -1,0 +1,21 @@
+{
+  "headline": {
+    "sum_cv_r2_value_site": {
+      "value": 0.79156554854357,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "CV R\u00b2 of the sum D_A + D_B read from the pair probe at the value site L3 (02's rows and folds)"
+    },
+    "gap_cv_r2_value_site": {
+      "value": 0.9943837956476361,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "CV R\u00b2 of the gap D_A \u2212 D_B read from the pair probe at L3"
+    }
+  },
+  "reward": "mass",
+  "value_site": "blocks.3.hook_resid_post",
+  "display_site": "blocks.3.hook_resid_post",
+  "n_fit": 4096,
+  "n_valid_fit": 3199
+}

@@ -1,0 +1,26 @@
+{
+  "headline": {
+    "pearson_r": {
+      "value": 0.9990262181056159,
+      "n": 81920,
+      "unit": "r",
+      "description": "Pearson r of P(choose A): actor vs target policy"
+    },
+    "perm_p": {
+      "value": 9.99990000099999e-06,
+      "n": 100000,
+      "unit": "p",
+      "description": "one-sided p of r under whole-episode permutations"
+    },
+    "target_policy_entropy": {
+      "value": 0.28242137976093573,
+      "n": 81920,
+      "unit": "nats",
+      "description": "mean entropy of the target policy softmax(beta Q) per decision (model-free)"
+    }
+  },
+  "n_episodes": 8192,
+  "n_decisions": 81920,
+  "checkpoint_sha256": "d9b59488798f5e72e33108cdbe25fb00905316908953dca04a5d127e28c51c33",
+  "snapshot": null
+}

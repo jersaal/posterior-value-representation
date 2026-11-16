@@ -1,0 +1,21 @@
+{
+  "world": "mess9",
+  "seed_tag": "s0",
+  "arch": "configs/arch/tiny_4l_2h_64d_c91.json",
+  "training": "configs/training/reinforce_24k.json",
+  "seeds": {
+    "model_init": 20100001,
+    "data_stream_base": 21100000,
+    "post_training_eval": 23100001,
+    "fit": 23600001,
+    "eval": 23600002,
+    "smoke_model_init": 29000001,
+    "smoke_data_stream_base": 29100000
+  },
+  "checkpoint": {
+    "path": "results/mess9/s0/00_train/full-20261107-193903/checkpoint/weights.pt",
+    "sha256": "b995630c24ee0dcd029717b10cd05dd22a4adf96ab7dc921ed5c487de0582281"
+  },
+  "instruments": null,
+  "note": "One nine-state chain (hmms/mess9) in place of the two three-state factors; the toy model's seeds, architecture and training settings. Analysed by experiments/15_single_chain.py only."
+}

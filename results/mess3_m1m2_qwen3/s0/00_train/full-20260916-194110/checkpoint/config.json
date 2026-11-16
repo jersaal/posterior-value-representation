@@ -1,0 +1,97 @@
+{
+  "study": "mess3_m1m2_qwen3/s0",
+  "world": "mess3_m1m2",
+  "factors": [
+    "mess3_fwh_m1",
+    "mess3_fwh_m2"
+  ],
+  "d_vocab": 17,
+  "n_ctx": 91,
+  "action_positions": [
+    31,
+    36,
+    41,
+    46,
+    51,
+    56,
+    61,
+    66,
+    71,
+    90
+  ],
+  "arch": {
+    "name": "qwen3_1p7b",
+    "n_layers": 28,
+    "d_model": 2048,
+    "n_heads": 16,
+    "d_head": 128,
+    "d_mlp": 6144,
+    "n_ctx": 91,
+    "act_fn": "silu",
+    "normalization_type": "RMS",
+    "note": "shape of Qwen/Qwen3-1.7B-Base (TransformerLens config Qwen/Qwen3-1.7B); initialised from the pretrained weights by 00_train, never built fresh"
+  },
+  "training": {
+    "name": "reinforce_llm_10k",
+    "num_steps": 10000,
+    "batch_size": 512,
+    "micro_batch": 64,
+    "autocast": true,
+    "lr": 1e-05,
+    "lr_final": 2e-07,
+    "decay_start": 2500,
+    "decay_end": 8333,
+    "log_every": 20,
+    "note": "The toy trainer on a pretrained actor: zero-baseline REINFORCE with entropy bonus H/beta, AdamW at torch defaults except lr, no clipping, no warm-up, no evaluator. Learning-rate walk is the toy's shape (constant to 1/4, linear to lr/50 at 5/6, held) at the E2 constants; micro-batches of 64 accumulate the batch-mean gradient; blocks under bfloat16 autocast with float32 master weights and head."
+  },
+  "actor": {
+    "kind": "pretrained",
+    "tl_config_name": "Qwen/Qwen3-1.7B",
+    "hf_init": "Qwen/Qwen3-1.7B-Base",
+    "batch_size": 64
+  },
+  "symbol_map": {
+    "chars": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "A",
+      "B",
+      "-",
+      "0",
+      "+",
+      "x",
+      "o",
+      "?"
+    ],
+    "table": [
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      32,
+      33,
+      12,
+      15,
+      10,
+      87,
+      78,
+      30
+    ]
+  },
+  "model_seed": null,
+  "data_stream_base": 21100000,
+  "num_steps": 10000,
+  "world_spec_sha256": "c22e08ab32c55ff92ec4e58867875275c905febc02226aa251da565f07872d4a"
+}

@@ -1,0 +1,31 @@
+{
+  "headline": {
+    "prop_composed_r2_pooled": {
+      "value": 0.9889217747748988,
+      "n": 27283,
+      "unit": "R\u00b2",
+      "description": "pooled R\u00b2 of composed P\u0302(X) over the drawn held-out cloud (panel b), from 03"
+    },
+    "prop_direct_r2_pooled": {
+      "value": 0.9982256044439152,
+      "n": 27283,
+      "unit": "R\u00b2",
+      "description": "pooled R\u00b2 of direct Q\u0302(X) over the drawn held-out cloud (panel c), from 03"
+    }
+  },
+  "sources": {
+    "03_decoder_views": "20261112-145005",
+    "07_intrinsic_dim": "20261112-134414"
+  },
+  "display_site": "blocks.3.hook_resid_post",
+  "read_sites": {
+    "posterior": "L0",
+    "value": "L2"
+  },
+  "sites": [
+    "blocks.0.hook_resid_post",
+    "blocks.1.hook_resid_post",
+    "blocks.2.hook_resid_post",
+    "blocks.3.hook_resid_post"
+  ]
+}

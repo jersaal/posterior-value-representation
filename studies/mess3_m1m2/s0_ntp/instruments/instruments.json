@@ -1,0 +1,82 @@
+{
+  "study": "mess3_m1m2/s0_ntp",
+  "checkpoint_sha256": "983e4bbdfd0ee780b18c08bfdda629fb0c54962052489f34ee218abb820a7fab",
+  "artifact_sha256": "5e3e6fb27c8fdb1dfcdef101cdcf3ea43e7d16fa106e9a9a8ccac437c199a7f0",
+  "fit_seed": 23600001,
+  "n_fit": 4096,
+  "n_plane": 2048,
+  "rows_per_dim": {
+    "fit": 8,
+    "plane": 4
+  },
+  "grade_readout": 5,
+  "grade_position": 56,
+  "min_offer_prob": 0.02,
+  "n_valid": 3199,
+  "sites": [
+    "blocks.0.hook_resid_pre",
+    "blocks.0.hook_resid_post",
+    "blocks.1.hook_resid_post",
+    "blocks.2.hook_resid_post",
+    "blocks.3.hook_resid_post"
+  ],
+  "targets": [
+    "etaA0",
+    "etaA1",
+    "etaA2",
+    "etaB0",
+    "etaB1",
+    "etaB2",
+    "D_A",
+    "D_B"
+  ],
+  "cv": {
+    "blocks.0.hook_resid_pre": {
+      "etaA": -0.0011621098946825725,
+      "etaB": -0.0008616865481678726,
+      "D": -0.00027234912914342324
+    },
+    "blocks.0.hook_resid_post": {
+      "etaA": 0.995573103122538,
+      "etaB": 0.9967221847802835,
+      "D": 0.00257405671120714
+    },
+    "blocks.1.hook_resid_post": {
+      "etaA": 0.9956663460778835,
+      "etaB": 0.997550168219254,
+      "D": -0.012525132942591277
+    },
+    "blocks.2.hook_resid_post": {
+      "etaA": 0.9964281579726978,
+      "etaB": 0.9979794099925189,
+      "D": -0.013301824604405876
+    },
+    "blocks.3.hook_resid_post": {
+      "etaA": 0.9968436597992058,
+      "etaB": 0.9983350430882597,
+      "D": -0.01199390103699538
+    }
+  },
+  "formation_r2": 0.95,
+  "posterior_site": "blocks.0.hook_resid_post",
+  "value_site": "blocks.0.hook_resid_post",
+  "posterior_site_reached_threshold": true,
+  "value_site_reached_threshold": false,
+  "value_write_site": null,
+  "posterior_write_site": null,
+  "write_fraction": 0.95,
+  "write_site_rule": "earliest post-block site whose steering slope reaches 0.95 of the ladder maximum",
+  "reads_only": true,
+  "planes": [],
+  "write_scan_slopes": null,
+  "posterior_write_scan_slopes": null,
+  "n_scan": 1024,
+  "display_site": "blocks.3.hook_resid_post",
+  "plane_cond": {},
+  "posterior_unit": {
+    "A": 0.2595629042512595,
+    "B": 0.4320087366154774
+  },
+  "run_dir": "results/mess3_m1m2/s0_ntp/02_fit_instruments/20261112-142839",
+  "smoke": false
+}

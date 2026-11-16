@@ -1,0 +1,8 @@
+{
+  "name": "mess3_m1m2_cond",
+  "factors": ["mess3_fwh_m1", "mess3_fwh_m2"],
+  "beta": 4.0,
+  "levels": [-1, 0, 1],
+  "offers": "factors",
+  "note": "Condition-offer variant of mess3_m1m2: an offer is a condition on each chain, written as one symbol per chain (M's subset, N's subset) in the first two slots of the offer block with the other seven slots padded, so no stream position stands for a joint state; the offer family is the 48 product sets U x W (6 held out). Payoff card, clues, layout, reward and beta identical."
+}

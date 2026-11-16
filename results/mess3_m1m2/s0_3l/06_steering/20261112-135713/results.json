@@ -1,0 +1,375 @@
+{
+  "headline": {
+    "transfer_slope_A": {
+      "value": 0.9682658493494106,
+      "n": 11592,
+      "unit": "slope",
+      "description": "observed vs exact choice-logit shift, factor A (SE 0.002)"
+    },
+    "control_slope_A": {
+      "value": 0.06941071055404854,
+      "n": 139104,
+      "unit": "slope",
+      "description": "pooled slope of 12 isometric off-plane copies, factor A (SE 0.002)"
+    },
+    "endpoint_error_natural_A": {
+      "value": 0.03839409056697067,
+      "n": 11592,
+      "unit": "utility",
+      "description": "median decoded-vs-commanded value-shift error, factor A"
+    },
+    "endpoint_error_control_A": {
+      "value": 0.389301220071966,
+      "n": 139104,
+      "unit": "utility",
+      "description": "same, off-plane control, factor A"
+    },
+    "transfer_slope_B": {
+      "value": 0.9722790659649283,
+      "n": 9289,
+      "unit": "slope",
+      "description": "observed vs exact choice-logit shift, factor B (SE 0.002)"
+    },
+    "control_slope_B": {
+      "value": 0.08326081822692295,
+      "n": 111468,
+      "unit": "slope",
+      "description": "pooled slope of 12 isometric off-plane copies, factor B (SE 0.001)"
+    },
+    "endpoint_error_natural_B": {
+      "value": 0.049891689434266445,
+      "n": 9289,
+      "unit": "utility",
+      "description": "median decoded-vs-commanded value-shift error, factor B"
+    },
+    "endpoint_error_control_B": {
+      "value": 0.6581674561206057,
+      "n": 111468,
+      "unit": "utility",
+      "description": "same, off-plane control, factor B"
+    },
+    "ring_slope": {
+      "value": 0.9073352366458366,
+      "n": 86268,
+      "unit": "slope",
+      "description": "pooled slope, observed on commanded choice-logit shift, 12 value-plane directions (SE 0.001)"
+    },
+    "ring_control_slope": {
+      "value": 0.004245363680958303,
+      "n": 86268,
+      "unit": "slope",
+      "description": "same for the matched-norm orthogonal-complement ring (SE 0.000)"
+    },
+    "posterior_rms_shift_value_ring": {
+      "value": 0.004933698903049107,
+      "n": 86268,
+      "unit": "tangent",
+      "description": "RMS decoded posterior shift under the value ring (reference 0)"
+    },
+    "posterior_rms_shift_posterior_ring": {
+      "value": 0.3234706392278275,
+      "n": 150913,
+      "unit": "tangent",
+      "description": "RMS decoded own-factor posterior shift under a posterior-plane ring (reference 0.320)"
+    },
+    "insertion_slope_A": {
+      "value": 0.9116124771086164,
+      "n": 11592,
+      "unit": "slope",
+      "description": "factor A: clean + value-plane part, slope on the full steer (SE 0.002)"
+    },
+    "removal_slope_A": {
+      "value": 0.08837567842818535,
+      "n": 11592,
+      "unit": "slope",
+      "description": "factor A: steered \u2212 value-plane part, slope on the full steer (SE 0.002)"
+    },
+    "insertion_slope_B": {
+      "value": 0.9391166449380581,
+      "n": 9289,
+      "unit": "slope",
+      "description": "factor B: clean + value-plane part, slope on the full steer (SE 0.002)"
+    },
+    "removal_slope_B": {
+      "value": 0.06138604523109726,
+      "n": 9289,
+      "unit": "slope",
+      "description": "factor B: steered \u2212 value-plane part, slope on the full steer (SE 0.002)"
+    }
+  },
+  "posterior": {
+    "factors": {
+      "A": {
+        "n_kept": 11592,
+        "transfer": {
+          "slope": 0.9682658493494106,
+          "se": 0.0019906443385310406,
+          "intercept": 0.0003385138740950098,
+          "r2": 0.9814788593436534,
+          "n": 11592,
+          "n_groups": 11592
+        },
+        "control": {
+          "slope": 0.06941071055404854,
+          "se": 0.0016869370543953384,
+          "intercept": -0.0012830373506544526,
+          "r2": 0.059035489448765244,
+          "n": 139104,
+          "n_groups": 11592
+        },
+        "endpoint_error_median_natural": 0.03839409056697067,
+        "endpoint_error_median_control": 0.389301220071966
+      },
+      "B": {
+        "n_kept": 9289,
+        "transfer": {
+          "slope": 0.9722790659649283,
+          "se": 0.0015173236918937128,
+          "intercept": -0.00029803706749552986,
+          "r2": 0.9853228652510342,
+          "n": 9289,
+          "n_groups": 9289
+        },
+        "control": {
+          "slope": 0.08326081822692295,
+          "se": 0.0012595536209102545,
+          "intercept": 0.011872957170965433,
+          "r2": 0.17359864447847806,
+          "n": 111468,
+          "n_groups": 9289
+        },
+        "endpoint_error_median_natural": 0.049891689434266445,
+        "endpoint_error_median_control": 0.6581674561206057
+      }
+    },
+    "fan": {
+      "episode": 9679,
+      "D_cf": [
+        [
+          -0.5387332144406141,
+          -0.6678876998399833
+        ],
+        [
+          0.45908769688914897,
+          0.3801782790338006
+        ],
+        [
+          -0.023474611516948338,
+          -0.15906321900849066
+        ],
+        [
+          0.17997623846372524,
+          -0.6172752469499885
+        ],
+        [
+          0.35574968759996334,
+          -0.024928940499215388
+        ]
+      ],
+      "D1": [
+        [
+          -0.43242513822008277,
+          -0.626998521250763
+        ],
+        [
+          0.3818940709786964,
+          0.2504342745067838
+        ],
+        [
+          0.09768486724004491,
+          -0.22967831936522948
+        ],
+        [
+          0.13237421748174466,
+          -0.5772461464480284
+        ],
+        [
+          0.359919229629196,
+          -0.0800563747105908
+        ]
+      ]
+    }
+  },
+  "ring": {
+    "per_direction": [
+      {
+        "angle": 0.0,
+        "commanded": 0.8136855823342513,
+        "observed": 0.7242890871839709,
+        "ci95": 0.006809023019497676,
+        "control": -0.018861101902551983
+      },
+      {
+        "angle": 30.0,
+        "commanded": 0.2978295938274706,
+        "observed": 0.2685368956634261,
+        "ci95": 0.0028291226733731874,
+        "control": 0.011376239498290558
+      },
+      {
+        "angle": 60.0,
+        "commanded": -0.2978295938274703,
+        "observed": -0.262248559779331,
+        "ci95": 0.0027755561159810106,
+        "control": -0.05163707208212653
+      },
+      {
+        "angle": 90.0,
+        "commanded": -0.8136855823342513,
+        "observed": -0.7264674068801701,
+        "ci95": 0.006815901236673903,
+        "control": 0.012051254926972604
+      },
+      {
+        "angle": 120.0,
+        "commanded": -1.111515176161722,
+        "observed": -0.9976060346092694,
+        "ci95": 0.009271934778388263,
+        "control": 0.055743398826797644
+      },
+      {
+        "angle": 150.0,
+        "commanded": -1.111515176161722,
+        "observed": -1.0003235459204474,
+        "ci95": 0.009287330041012377,
+        "control": -0.035025036493147595
+      },
+      {
+        "angle": 180.0,
+        "commanded": -0.8136855823342515,
+        "observed": -0.7331421711538406,
+        "ci95": 0.0068463688019787805,
+        "control": -0.02168326540269762
+      },
+      {
+        "angle": 210.0,
+        "commanded": -0.2978295938274703,
+        "observed": -0.26953376269966517,
+        "ci95": 0.002774638788633302,
+        "control": 0.049797503074989785
+      },
+      {
+        "angle": 240.0,
+        "commanded": 0.2978295938274698,
+        "observed": 0.26346295501459477,
+        "ci95": 0.0027888169212693784,
+        "control": -0.018099116859105036
+      },
+      {
+        "angle": 270.0,
+        "commanded": 0.8136855823342513,
+        "observed": 0.7220383953369771,
+        "ci95": 0.0068074162371663145,
+        "control": 0.013232242017437414
+      },
+      {
+        "angle": 300.0,
+        "commanded": 1.111515176161722,
+        "observed": 0.985324313622056,
+        "ci95": 0.00919666922499193,
+        "control": 0.02729844305268312
+      },
+      {
+        "angle": 330.0,
+        "commanded": 1.111515176161722,
+        "observed": 0.9858290492555051,
+        "ci95": 0.009192929197395323,
+        "control": 0.021854498888012424
+      }
+    ],
+    "n_kept": 7189,
+    "aim_error": 3.3306690738754696e-16,
+    "locality_error": 0.0,
+    "caveat": "value write site equals the display site: the posterior read is taken at the write site itself"
+  },
+  "mediation": {
+    "factors": {
+      "A": {
+        "fits": {
+          "insertion": {
+            "slope": 0.9116124771086164,
+            "se": 0.002392004019490017,
+            "intercept": -0.0003684577958992404,
+            "r2": 0.9802835409275945,
+            "n": 11592,
+            "n_groups": 11592
+          },
+          "removal": {
+            "slope": 0.08837567842818535,
+            "se": 0.0023655962654628142,
+            "intercept": 0.0033538466950764866,
+            "r2": 0.3225693078785462,
+            "n": 11592,
+            "n_groups": 11592
+          },
+          "insertion_control": {
+            "slope": 0.07351881184713616,
+            "se": 0.002198063782501915,
+            "intercept": 0.001960049562247802,
+            "r2": 0.33568030329308474,
+            "n": 11592,
+            "n_groups": 11592
+          },
+          "removal_control": {
+            "slope": 0.925035789702593,
+            "se": 0.00222181967927196,
+            "intercept": 0.0029652604198900923,
+            "r2": 0.9878363477228175,
+            "n": 11592,
+            "n_groups": 11592
+          }
+        },
+        "n_kept": 11592
+      },
+      "B": {
+        "fits": {
+          "insertion": {
+            "slope": 0.9391166449380581,
+            "se": 0.0021430805706969657,
+            "intercept": 0.002529467924301528,
+            "r2": 0.9839283551640545,
+            "n": 9289,
+            "n_groups": 9289
+          },
+          "removal": {
+            "slope": 0.06138604523109726,
+            "se": 0.0021552876283291392,
+            "intercept": 0.01175805357212454,
+            "r2": 0.20928257319590693,
+            "n": 9289,
+            "n_groups": 9289
+          },
+          "insertion_control": {
+            "slope": 0.1247885781517492,
+            "se": 0.0022827165674962333,
+            "intercept": 0.026287805865148058,
+            "r2": 0.513289261380089,
+            "n": 9289,
+            "n_groups": 9289
+          },
+          "removal_control": {
+            "slope": 0.870827413202869,
+            "se": 0.0022110660887019766,
+            "intercept": 0.017595288675807,
+            "r2": 0.9816286954746776,
+            "n": 9289,
+            "n_groups": 9289
+          }
+        },
+        "n_kept": 9289
+      }
+    }
+  },
+  "sites": {
+    "posterior_read": "blocks.0.hook_resid_post",
+    "posterior_write": {
+      "A": "blocks.0.hook_resid_post",
+      "B": "blocks.0.hook_resid_post"
+    },
+    "value_read": "blocks.2.hook_resid_post",
+    "value_write": "blocks.2.hook_resid_post",
+    "display": "blocks.2.hook_resid_post"
+  },
+  "n_eval": 16384,
+  "n_controls": 12
+}

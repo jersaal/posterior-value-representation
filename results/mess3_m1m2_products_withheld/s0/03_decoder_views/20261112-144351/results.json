@@ -1,0 +1,192 @@
+{
+  "headline": {
+    "portrait_r2_etaA": {
+      "value": 0.9966305957820306,
+      "n": 6306,
+      "unit": "R\u00b2",
+      "description": "factor-M posterior R\u00b2 on eval episodes at the posterior site blocks.0.hook_resid_post"
+    },
+    "portrait_r2_etaB": {
+      "value": 0.9948563082918224,
+      "n": 6306,
+      "unit": "R\u00b2",
+      "description": "factor-N posterior R\u00b2 on eval episodes at the posterior site blocks.0.hook_resid_post"
+    },
+    "portrait_r2_D": {
+      "value": 0.9985801864504116,
+      "n": 6306,
+      "unit": "R\u00b2",
+      "description": "offer-value R\u00b2 on eval episodes at the value site blocks.2.hook_resid_post"
+    },
+    "prop_composed_r2_pooled": {
+      "value": 0.9882044662368108,
+      "n": 36969,
+      "unit": "R\u00b2",
+      "description": "pooled R\u00b2 of composed P\u0302(X) over all withheld (offer, context) pairs at the display site"
+    },
+    "prop_direct_r2_pooled": {
+      "value": 0.9980837363977503,
+      "n": 36969,
+      "unit": "R\u00b2",
+      "description": "pooled R\u00b2 of direct Q\u0302(X) over all withheld (offer, context) pairs at the display site"
+    },
+    "prop_composed_r2_median_withheld_class": {
+      "value": 0.9845612550498446,
+      "n": 27,
+      "unit": "R\u00b2",
+      "description": "median per-offer R\u00b2 of composed P\u0302(X) at the display site over the held-out masks of the classes withheld wholesale (rect)"
+    },
+    "prop_direct_r2_median_withheld_class": {
+      "value": 0.998614565974246,
+      "n": 27,
+      "unit": "R\u00b2",
+      "description": "median per-offer R\u00b2 of direct Q\u0302(X) at the display site over the held-out masks of the classes withheld wholesale (rect)"
+    }
+  },
+  "withheld_classes": [
+    "rect"
+  ],
+  "natural_r2_by_site": {
+    "blocks.0.hook_resid_post": {
+      "etaA": 0.9966305957820306,
+      "etaB": 0.9948563082918224,
+      "D": 0.032997035173119915
+    },
+    "blocks.1.hook_resid_post": {
+      "etaA": 0.9951026335686967,
+      "etaB": 0.9925266878880294,
+      "D": 0.5105716379412153
+    },
+    "blocks.2.hook_resid_post": {
+      "etaA": 0.9928109588661804,
+      "etaB": 0.9879886514004617,
+      "D": 0.9985801864504116
+    },
+    "blocks.3.hook_resid_post": {
+      "etaA": 0.9897302637169806,
+      "etaB": 0.9849644453351476,
+      "D": 0.998469877014698
+    }
+  },
+  "n_eval": 8192,
+  "n_valid": 6306,
+  "n_ctx": 512,
+  "display_site": "blocks.3.hook_resid_post",
+  "read_sites": {
+    "posterior": "L0",
+    "value": "L2"
+  },
+  "portrait_sites": {
+    "posterior": "blocks.0.hook_resid_post",
+    "value": "blocks.2.hook_resid_post"
+  },
+  "masks_kept": [
+    3,
+    5,
+    6,
+    7,
+    9,
+    13,
+    18,
+    19,
+    24,
+    27,
+    33,
+    34,
+    36,
+    40,
+    43,
+    45,
+    46,
+    48,
+    49,
+    52,
+    54,
+    64,
+    65,
+    66,
+    67,
+    71,
+    72,
+    76,
+    86,
+    90,
+    96,
+    101,
+    119,
+    124,
+    130,
+    144,
+    145,
+    150,
+    166,
+    167,
+    171,
+    175,
+    176,
+    184,
+    192,
+    195,
+    201,
+    209,
+    216,
+    219,
+    220,
+    245,
+    247,
+    258,
+    260,
+    275,
+    283,
+    288,
+    289,
+    294,
+    295,
+    306,
+    320,
+    325,
+    331,
+    344,
+    355,
+    359,
+    360,
+    374,
+    379,
+    380,
+    383,
+    384,
+    386,
+    388,
+    390,
+    399,
+    400,
+    432,
+    436,
+    441,
+    443,
+    449,
+    457,
+    472,
+    475,
+    481
+  ],
+  "masks_skipped": [],
+  "prop_median_by_site": {
+    "blocks.0.hook_resid_post": {
+      "P": 0.9945839464855134,
+      "D": -0.012613163786797776
+    },
+    "blocks.1.hook_resid_post": {
+      "P": 0.9919710708912127,
+      "D": 0.8299721934883535
+    },
+    "blocks.2.hook_resid_post": {
+      "P": 0.9878674984440341,
+      "D": 0.9981949298250354
+    },
+    "blocks.3.hook_resid_post": {
+      "P": 0.9838668402931683,
+      "D": 0.9978885970797478
+    }
+  }
+}

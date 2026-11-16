@@ -1,0 +1,751 @@
+{
+  "headline": {
+    "sum_cv_r2_value_site": {
+      "value": 0.9919736537068792,
+      "n": 2912,
+      "unit": "R\u00b2",
+      "description": "CV R\u00b2 of the sum D_A + D_B read from the pair probe at the value site L3 (02's rows and folds)"
+    },
+    "gap_cv_r2_value_site": {
+      "value": 0.9967290375007531,
+      "n": 2912,
+      "unit": "R\u00b2",
+      "description": "CV R\u00b2 of the gap D_A \u2212 D_B read from the pair probe at L3"
+    },
+    "etaA_pinned_median_r2": {
+      "value": 0.968682950706827,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "median per-held-out-proposition R\u00b2 of the pinned factor-A posterior read (pooled over its three coordinates) at L3"
+    },
+    "etaB_pinned_median_r2": {
+      "value": 0.9587820432863503,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "median per-held-out-proposition R\u00b2 of the pinned factor-B posterior read (pooled over its three coordinates) at L3"
+    },
+    "joint_direct_median_r2": {
+      "value": 0.7750903480425859,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "median per-held-out-proposition R\u00b2 of the direct joint-posterior read (pooled over its nine coordinates) at L3"
+    },
+    "joint_affine_median_r2": {
+      "value": 0.7445322133959663,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "median per-held-out-proposition R\u00b2 of the best affine read of the joint posterior from the pinned factor-posterior reads at L3"
+    },
+    "P_composed_median_r2": {
+      "value": 0.9563179750062771,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "median per-held-out-proposition R\u00b2 of the offer probability composed from the pinned posterior read at L3"
+    },
+    "P_direct_median_r2": {
+      "value": 0.17469113447823875,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "median per-held-out-proposition R\u00b2 of the direct offer-probability read at L3"
+    },
+    "D_direct_median_r2": {
+      "value": 0.9900223243676705,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "median per-held-out-proposition R\u00b2 of the direct offer-value read at L3"
+    },
+    "v_direct_median_r2": {
+      "value": 0.5661696518137282,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "median per-held-out-proposition R\u00b2 of the direct payoff-mass read at L3"
+    },
+    "v_beyond_D_median_r2": {
+      "value": -0.03652363916120771,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "median per-held-out-proposition R\u00b2 of the read of the payoff-mass residual on D (v \u2212 a \u2212 bD) at L3"
+    },
+    "etaA_pinned_q25_r2": {
+      "value": 0.9681364715490988,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q25 quartile of the per-held-out-proposition R\u00b2 of the pinned factor-A posterior read (pooled over its three coordinates) at L3"
+    },
+    "etaA_pinned_q75_r2": {
+      "value": 0.9688267152156945,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q75 quartile of the per-held-out-proposition R\u00b2 of the pinned factor-A posterior read (pooled over its three coordinates) at L3"
+    },
+    "etaB_pinned_q25_r2": {
+      "value": 0.9538287325406722,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q25 quartile of the per-held-out-proposition R\u00b2 of the pinned factor-B posterior read (pooled over its three coordinates) at L3"
+    },
+    "etaB_pinned_q75_r2": {
+      "value": 0.9595367865789416,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q75 quartile of the per-held-out-proposition R\u00b2 of the pinned factor-B posterior read (pooled over its three coordinates) at L3"
+    },
+    "joint_direct_q25_r2": {
+      "value": 0.7719213799873471,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q25 quartile of the per-held-out-proposition R\u00b2 of the direct joint-posterior read (pooled over its nine coordinates) at L3"
+    },
+    "joint_direct_q75_r2": {
+      "value": 0.779660345908981,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q75 quartile of the per-held-out-proposition R\u00b2 of the direct joint-posterior read (pooled over its nine coordinates) at L3"
+    },
+    "P_composed_q25_r2": {
+      "value": 0.9551466184471263,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q25 quartile of the per-held-out-proposition R\u00b2 of the offer probability composed from the pinned posterior read at L3"
+    },
+    "P_composed_q75_r2": {
+      "value": 0.9582195776725846,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q75 quartile of the per-held-out-proposition R\u00b2 of the offer probability composed from the pinned posterior read at L3"
+    },
+    "P_direct_q25_r2": {
+      "value": 0.014855940947299306,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q25 quartile of the per-held-out-proposition R\u00b2 of the direct offer-probability read at L3"
+    },
+    "P_direct_q75_r2": {
+      "value": 0.28617298261340196,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q75 quartile of the per-held-out-proposition R\u00b2 of the direct offer-probability read at L3"
+    },
+    "D_direct_q25_r2": {
+      "value": 0.9858998556475888,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q25 quartile of the per-held-out-proposition R\u00b2 of the direct offer-value read at L3"
+    },
+    "D_direct_q75_r2": {
+      "value": 0.990945361584174,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q75 quartile of the per-held-out-proposition R\u00b2 of the direct offer-value read at L3"
+    },
+    "v_direct_q25_r2": {
+      "value": 0.4190252129944031,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q25 quartile of the per-held-out-proposition R\u00b2 of the direct payoff-mass read at L3"
+    },
+    "v_direct_q75_r2": {
+      "value": 0.6191863149593682,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q75 quartile of the per-held-out-proposition R\u00b2 of the direct payoff-mass read at L3"
+    },
+    "v_beyond_D_q25_r2": {
+      "value": -0.04005911227860148,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q25 quartile of the per-held-out-proposition R\u00b2 of the read of the payoff-mass residual on D (v \u2212 a \u2212 bD) at L3"
+    },
+    "v_beyond_D_q75_r2": {
+      "value": -0.028292888985233744,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q75 quartile of the per-held-out-proposition R\u00b2 of the read of the payoff-mass residual on D (v \u2212 a \u2212 bD) at L3"
+    },
+    "heldout_sum_median_r2": {
+      "value": 0.9891047895653329,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "median of the per-held-out-proposition R\u00b2 of the sum D_A + D_B read by the pinned decoder at L3"
+    },
+    "heldout_sum_q25_r2": {
+      "value": 0.9888253790402782,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q25 of the per-held-out-proposition R\u00b2 of the sum D_A + D_B read by the pinned decoder at L3"
+    },
+    "heldout_sum_q75_r2": {
+      "value": 0.9895846845119844,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q75 of the per-held-out-proposition R\u00b2 of the sum D_A + D_B read by the pinned decoder at L3"
+    },
+    "heldout_gap_median_r2": {
+      "value": 0.995552415813395,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "median of the per-held-out-proposition R\u00b2 of the gap D_A \u2212 D_B read by the pinned decoder at L3"
+    },
+    "heldout_gap_q25_r2": {
+      "value": 0.9930484023084228,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q25 of the per-held-out-proposition R\u00b2 of the gap D_A \u2212 D_B read by the pinned decoder at L3"
+    },
+    "heldout_gap_q75_r2": {
+      "value": 0.995755519700423,
+      "n": 6,
+      "unit": "R\u00b2",
+      "description": "q75 of the per-held-out-proposition R\u00b2 of the gap D_A \u2212 D_B read by the pinned decoder at L3"
+    },
+    "v_use_slope_L3": {
+      "value": -0.09829367916613768,
+      "n": 4692,
+      "unit": "slope",
+      "description": "choice-logit slope on \u03b2\u00b7\u0394(v beyond D) for an aimed ring at L3 with decoded D held"
+    },
+    "P_use_slope_L3": {
+      "value": -0.012383570942547086,
+      "n": 4692,
+      "unit": "slope",
+      "description": "choice-logit slope on \u03b2\u00b7\u0394(P) for an aimed ring at L3 with decoded D held"
+    },
+    "v_use_control_L3": {
+      "value": 0.007231859440118502,
+      "n": 4692,
+      "unit": "slope",
+      "description": "the same commands copied to random directions orthogonal to the mass plane at L3"
+    },
+    "P_use_control_L3": {
+      "value": 0.005486037840233443,
+      "n": 4692,
+      "unit": "slope",
+      "description": "the same commands copied to random directions orthogonal to the prob plane at L3"
+    },
+    "D_in_mass_plane_slope_L3": {
+      "value": 0.943491149905301,
+      "n": 4692,
+      "unit": "slope",
+      "description": "the D ring of the rank-4 mass plane at L3 (q held): should match the value ring"
+    },
+    "D_in_prob_plane_slope_L3": {
+      "value": 0.9437084675599623,
+      "n": 4692,
+      "unit": "slope",
+      "description": "the D ring of the rank-4 prob plane at L3 (q held): should match the value ring"
+    }
+  },
+  "reward": "conditional",
+  "value_site": "blocks.3.hook_resid_post",
+  "display_site": "blocks.3.hook_resid_post",
+  "n_fit": 4096,
+  "n_valid_fit": 2912,
+  "use": {
+    "L0": {
+      "mass": {
+        "cond": 13.941775540052623,
+        "degenerate": false,
+        "decoded_shift": {
+          "q": {
+            "D_median": 0.2705397064124882,
+            "q_median": 0.05725051579156731,
+            "commanded_median": 0.25
+          },
+          "D": {
+            "D_median": 0.06813874961087385,
+            "q_median": 0.015054665814073751,
+            "commanded_median": 0.25
+          }
+        },
+        "q": {
+          "slope": 0.019930122737442133,
+          "se": 0.0741149149073247,
+          "intercept": 0.00028356000937726435,
+          "r2": 0.00011565686056647095,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "q_control": {
+          "slope": -0.007169069205512129,
+          "se": 0.015030534968364082,
+          "intercept": 0.124100561661678,
+          "r2": 7.869438437502208e-05,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D": {
+          "slope": -0.029931413572988945,
+          "se": 0.031120364121217808,
+          "intercept": 0.001310064365231596,
+          "r2": 0.0024095180385065307,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D_control": {
+          "slope": 0.010605142028290241,
+          "se": 0.00430805041955188,
+          "intercept": -0.020149387447909135,
+          "r2": 0.002471008288606802,
+          "n": 4692,
+          "n_groups": 391
+        }
+      },
+      "prob": {
+        "cond": 8.458160393915287,
+        "degenerate": false,
+        "decoded_shift": {
+          "q": {
+            "D_median": 0.07657468833541825,
+            "q_median": 0.17208623991224653,
+            "commanded_median": 0.25
+          },
+          "D": {
+            "D_median": 0.06794891662052027,
+            "q_median": 0.030955514307115087,
+            "commanded_median": 0.25
+          }
+        },
+        "q": {
+          "slope": 0.012547768175890931,
+          "se": 0.011902361220598259,
+          "intercept": 0.0034389945194495623,
+          "r2": 0.00037330544954083944,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "q_control": {
+          "slope": 0.043966275376683836,
+          "se": 0.0069451414418371825,
+          "intercept": -0.031541892328422555,
+          "r2": 0.008236030170364561,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D": {
+          "slope": -0.03043818537537114,
+          "se": 0.032307753007834825,
+          "intercept": 0.001546930901957497,
+          "r2": 0.002379252635274942,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D_control": {
+          "slope": 0.043517919338533786,
+          "se": 0.002946627669489363,
+          "intercept": -0.009920548432290567,
+          "r2": 0.04012659952814768,
+          "n": 4692,
+          "n_groups": 391
+        }
+      }
+    },
+    "L1": {
+      "mass": {
+        "cond": 12.876028970153422,
+        "degenerate": false,
+        "decoded_shift": {
+          "q": {
+            "D_median": 0.058937962014653913,
+            "q_median": 0.08580856704511075,
+            "commanded_median": 0.25
+          },
+          "D": {
+            "D_median": 0.12505047400412217,
+            "q_median": 0.0077967686216783875,
+            "commanded_median": 0.25
+          }
+        },
+        "q": {
+          "slope": -0.03030910855351026,
+          "se": 0.03387157920129356,
+          "intercept": 0.02177168775110149,
+          "r2": 0.0010492143807595555,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "q_control": {
+          "slope": -0.007259993653042129,
+          "se": 0.00555362031871253,
+          "intercept": -0.029332678384428556,
+          "r2": 0.00033117590093301175,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D": {
+          "slope": 0.4851067668701745,
+          "se": 0.0039034265621779485,
+          "intercept": -0.0020691353256829846,
+          "r2": 0.4950248786251008,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D_control": {
+          "slope": -0.01075180786125484,
+          "se": 0.002462837787598371,
+          "intercept": 0.011792185525037099,
+          "r2": 0.007734779974900574,
+          "n": 4692,
+          "n_groups": 391
+        }
+      },
+      "prob": {
+        "cond": 3.7783469184223186,
+        "degenerate": false,
+        "decoded_shift": {
+          "q": {
+            "D_median": 0.015299403050408592,
+            "q_median": 0.16548742079666307,
+            "commanded_median": 0.25
+          },
+          "D": {
+            "D_median": 0.12194879817595998,
+            "q_median": 0.028009439588449786,
+            "commanded_median": 0.25
+          }
+        },
+        "q": {
+          "slope": -0.01160453327536379,
+          "se": 0.0025964108979772407,
+          "intercept": -0.0005433114876726663,
+          "r2": 0.004661814099902628,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "q_control": {
+          "slope": -0.0036239127651606336,
+          "se": 0.0009541498687000126,
+          "intercept": -0.008866037831409723,
+          "r2": 0.0015926354361621708,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D": {
+          "slope": 0.48726764968709796,
+          "se": 0.0018125321026438346,
+          "intercept": -0.0019677239371895827,
+          "r2": 0.5072262036391129,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D_control": {
+          "slope": 0.0006637240107272636,
+          "se": 0.0015027966035070317,
+          "intercept": -0.0077903619374618035,
+          "r2": 2.6665806258541203e-05,
+          "n": 4692,
+          "n_groups": 391
+        }
+      }
+    },
+    "L2": {
+      "mass": {
+        "cond": 7.235241524508832,
+        "degenerate": false,
+        "decoded_shift": {
+          "q": {
+            "D_median": 0.08855596849883401,
+            "q_median": 0.15937550799207878,
+            "commanded_median": 0.25
+          },
+          "D": {
+            "D_median": 0.1329240994411357,
+            "q_median": 0.013329310314759929,
+            "commanded_median": 0.25
+          }
+        },
+        "q": {
+          "slope": 0.21778402923233714,
+          "se": 0.018579864491074984,
+          "intercept": -0.0023831930483914124,
+          "r2": 0.1250635885565432,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "q_control": {
+          "slope": 0.0035770462111251815,
+          "se": 0.0029263549992816665,
+          "intercept": -0.02925203359066222,
+          "r2": 0.0003029820692189711,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D": {
+          "slope": 0.5744934559721364,
+          "se": 0.002316103307079263,
+          "intercept": -0.0001222620422698103,
+          "r2": 0.6605242358733261,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D_control": {
+          "slope": 0.008062161676886535,
+          "se": 0.0007795096692605934,
+          "intercept": -0.0025875067531462652,
+          "r2": 0.0046483893480463445,
+          "n": 4692,
+          "n_groups": 391
+        }
+      },
+      "prob": {
+        "cond": 3.1378168813610143,
+        "degenerate": false,
+        "decoded_shift": {
+          "q": {
+            "D_median": 0.010191367862901354,
+            "q_median": 0.22081610934193074,
+            "commanded_median": 0.25
+          },
+          "D": {
+            "D_median": 0.13509277145318804,
+            "q_median": 0.01750183613585425,
+            "commanded_median": 0.25
+          }
+        },
+        "q": {
+          "slope": 0.014035270797590768,
+          "se": 0.002427460377120206,
+          "intercept": -0.0019535129762744924,
+          "r2": 0.007017708930338484,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "q_control": {
+          "slope": 0.0049807084450611975,
+          "se": 0.0013083837857241817,
+          "intercept": 0.017183416214992954,
+          "r2": 0.0026176619775333254,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D": {
+          "slope": 0.5864596446464191,
+          "se": 0.0021937114712203914,
+          "intercept": -0.00011405866798475692,
+          "r2": 0.6806938062780602,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D_control": {
+          "slope": 0.013757663008558891,
+          "se": 0.0009622858524355077,
+          "intercept": 0.008746516124751167,
+          "r2": 0.018294592151224087,
+          "n": 4692,
+          "n_groups": 391
+        }
+      }
+    },
+    "L3": {
+      "mass": {
+        "cond": 5.166098983887246,
+        "degenerate": false,
+        "decoded_shift": {
+          "q": {
+            "D_median": 1.2330375777992857e-08,
+            "q_median": 0.24999999090133168,
+            "commanded_median": 0.25
+          },
+          "D": {
+            "D_median": 0.24999999420630403,
+            "q_median": 1.533753796552092e-08,
+            "commanded_median": 0.25
+          }
+        },
+        "q": {
+          "slope": -0.09829367916613768,
+          "se": 0.002090181487660862,
+          "intercept": 0.00018445025763787968,
+          "r2": 0.3325374453972302,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "q_control": {
+          "slope": 0.007231859440118502,
+          "se": 0.0008099823850022516,
+          "intercept": 0.00819150650167088,
+          "r2": 0.002226168129509376,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D": {
+          "slope": 0.943491149905301,
+          "se": 0.004928605969937755,
+          "intercept": 0.0019121614602049353,
+          "r2": 0.9806085593888457,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D_control": {
+          "slope": -0.0014453573789008558,
+          "se": 0.00043504965300041385,
+          "intercept": -0.011478191506410102,
+          "r2": 0.0007673047449059389,
+          "n": 4692,
+          "n_groups": 391
+        }
+      },
+      "prob": {
+        "cond": 3.916921632039791,
+        "degenerate": false,
+        "decoded_shift": {
+          "q": {
+            "D_median": 1.1850637699985402e-08,
+            "q_median": 0.24999997496106524,
+            "commanded_median": 0.25
+          },
+          "D": {
+            "D_median": 0.2499999898953898,
+            "q_median": 4.029136039799383e-08,
+            "commanded_median": 0.25
+          }
+        },
+        "q": {
+          "slope": -0.012383570942547086,
+          "se": 0.0005867694801319396,
+          "intercept": -0.0003403675278777475,
+          "r2": 0.032603180626310624,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "q_control": {
+          "slope": 0.005486037840233443,
+          "se": 0.0001297725531562709,
+          "intercept": 0.010652650140856562,
+          "r2": 0.04018183947359977,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D": {
+          "slope": 0.9437084675599623,
+          "se": 0.004930440669023416,
+          "intercept": 0.001997577734521291,
+          "r2": 0.9805969511955477,
+          "n": 4692,
+          "n_groups": 391
+        },
+        "D_control": {
+          "slope": 0.006117318311420975,
+          "se": 0.0007512353320196061,
+          "intercept": 0.022684692757568802,
+          "r2": 0.0066945977840227044,
+          "n": 4692,
+          "n_groups": 391
+        }
+      }
+    }
+  },
+  "value_write_site": "blocks.3.hook_resid_post",
+  "n_scan": 1024,
+  "per_proposition_r2_display": {
+    "etaA_pinned": [
+      0.9647463039700919,
+      0.9688553495738874,
+      0.9687408121411157,
+      0.9686250892725382,
+      0.967973598974619,
+      0.9706438340582682
+    ],
+    "etaB_pinned": [
+      0.9629489266208117,
+      0.9589327341572946,
+      0.9597381373861572,
+      0.9522278592490944,
+      0.9586313524154059,
+      0.9464785360630633
+    ],
+    "joint_direct": [
+      0.7809422577910492,
+      0.7758146102627763,
+      0.7887496239336975,
+      0.7464838361036157,
+      0.7743660858223956,
+      0.7711064780423309
+    ],
+    "joint_affine": [
+      0.7468788973908138,
+      0.7441905292044773,
+      0.7569798785480698,
+      0.7407402596265613,
+      0.7430120380946046,
+      0.7448738975874554
+    ],
+    "P_composed": [
+      0.9635732293305022,
+      0.9574081629691931,
+      0.9584900492403817,
+      0.9519209042647917,
+      0.9552277870433613,
+      0.9551195622483813
+    ],
+    "P_direct": [
+      -0.03236799839892757,
+      -0.09550778962052076,
+      0.31727914016103675,
+      0.19285450997049758,
+      0.15652775898597993,
+      0.34720546829144894
+    ],
+    "D_direct": [
+      0.9901917735764134,
+      0.9845821824771425,
+      0.9788890245710973,
+      0.9967150081775419,
+      0.9898528751589276,
+      0.9911965575867608
+    ],
+    "v_direct": [
+      0.6820635143005849,
+      0.6113128999306707,
+      0.6218107866356006,
+      0.12980129909481808,
+      0.38502481609360883,
+      0.5210264036967858
+    ],
+    "v_beyond_D": [
+      -0.16756670497099257,
+      -0.03667991294616191,
+      -0.04118551205608134,
+      0.08325574967848315,
+      -0.03636736537625351,
+      -0.02560139685489382
+    ],
+    "sum": [
+      0.9889950218702657,
+      0.9883371217708347,
+      0.9892145572604001,
+      0.9938284298670198,
+      0.9887688314302824,
+      0.9897080602625126
+    ],
+    "gap": [
+      0.9955243818634463,
+      0.9922230757900817,
+      0.9908284549014348,
+      0.9977680299496923,
+      0.9958138763461161,
+      0.9955804497633437
+    ]
+  },
+  "kept_masks": [
+    7,
+    40,
+    45,
+    64,
+    73,
+    130
+  ],
+  "skipped_masks": [],
+  "v_on_D": {
+    "a": -0.0007434303396939336,
+    "b": 0.29658502458424985
+  },
+  "n_ctx": 512,
+  "targets": [
+    "P_A",
+    "P_B",
+    "v_A",
+    "v_B",
+    "D_A",
+    "D_B"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "headline": {
+    "posterior_r2_etaA": {
+      "value": 0.9963320583637442,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor-M posterior CV R\u00b2 at the posterior site blocks.0.hook_resid_post"
+    },
+    "posterior_r2_etaB": {
+      "value": 0.9939844824403749,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "factor-N posterior CV R\u00b2 at the posterior site blocks.0.hook_resid_post"
+    },
+    "posterior_cv_r2": {
+      "value": 0.9951582704020595,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "mean of the two factor-posterior CV R\u00b2 at the posterior site blocks.0.hook_resid_post"
+    },
+    "value_cv_r2": {
+      "value": 0.9975221155544336,
+      "n": 3199,
+      "unit": "R\u00b2",
+      "description": "offer-value CV R\u00b2 (the pair pooled) at the value site blocks.3.hook_resid_post"
+    },
+    "posterior_read_layer": {
+      "value": 0,
+      "n": 3199,
+      "unit": "layer",
+      "description": "posterior read site: earliest layer with mean factor CV R\u00b2 >= 0.95"
+    },
+    "value_read_layer": {
+      "value": 3,
+      "n": 3199,
+      "unit": "layer",
+      "description": "value read site: earliest layer with offer-value CV R\u00b2 >= 0.95"
+    },
+    "posterior_write_layer_etaA": {
+      "value": 0,
+      "n": 1024,
+      "unit": "layer",
+      "description": "factor-M posterior write site: earliest layer whose steering slope reaches 0.95 of the maximum over layers"
+    },
+    "posterior_write_layer_etaB": {
+      "value": 0,
+      "n": 1024,
+      "unit": "layer",
+      "description": "factor-N posterior write site: earliest layer whose steering slope reaches 0.95 of the maximum over layers"
+    },
+    "value_write_layer": {
+      "value": 5,
+      "n": 1024,
+      "unit": "layer",
+      "description": "value write site: earliest layer whose steering slope reaches 0.95 of the maximum over layers"
+    }
+  },
+  "cv": {
+    "blocks.0.hook_resid_pre": {
+      "etaA": -0.0011621098946825725,
+      "etaB": -0.0008616865481678726,
+      "D": -0.00027234912914342324
+    },
+    "blocks.0.hook_resid_post": {
+      "etaA": 0.9963320583637442,
+      "etaB": 0.9939844824403749,
+      "D": 0.043616531564598326
+    },
+    "blocks.1.hook_resid_post": {
+      "etaA": 0.9928815793678429,
+      "etaB": 0.9914502256414861,
+      "D": 0.6467045806598555
+    },
+    "blocks.2.hook_resid_post": {
+      "etaA": 0.9917119606557386,
+      "etaB": 0.9887005325236083,
+      "D": 0.8422792221609621
+    },
+    "blocks.3.hook_resid_post": {
+      "etaA": 0.9908636120996581,
+      "etaB": 0.9862892439831284,
+      "D": 0.9975221155544336
+    },
+    "blocks.4.hook_resid_post": {
+      "etaA": 0.9893736941654717,
+      "etaB": 0.9853793186058676,
+      "D": 0.9976263794201181
+    },
+    "blocks.5.hook_resid_post": {
+      "etaA": 0.9890761171461714,
+      "etaB": 0.9835976467837338,
+      "D": 0.9976061550871377
+    },
+    "blocks.6.hook_resid_post": {
+      "etaA": 0.988434948950666,
+      "etaB": 0.9823153148087066,
+      "D": 0.9974962436991578
+    },
+    "blocks.7.hook_resid_post": {
+      "etaA": 0.9867525201393283,
+      "etaB": 0.9810038941139144,
+      "D": 0.9974095664983408
+    }
+  },
+  "sites": {
+    "posterior": "blocks.0.hook_resid_post",
+    "value": "blocks.3.hook_resid_post",
+    "value_write": "blocks.5.hook_resid_post",
+    "posterior_write": {
+      "A": "blocks.0.hook_resid_post",
+      "B": "blocks.0.hook_resid_post"
+    },
+    "display": "blocks.7.hook_resid_post"
+  },
+  "formation_r2": 0.95,
+  "write_fraction": 0.95,
+  "reads_only": false,
+  "write_scan_slopes": {
+    "own": {
+      "blocks.0.hook_resid_post": -0.004401310144594394,
+      "blocks.1.hook_resid_post": 0.1130787618179534,
+      "blocks.2.hook_resid_post": 0.11749544285826845,
+      "blocks.3.hook_resid_post": 0.8906008590372734,
+      "blocks.4.hook_resid_post": 0.91816606654044,
+      "blocks.5.hook_resid_post": 0.9727822026082643,
+      "blocks.6.hook_resid_post": 0.9721151981339782,
+      "blocks.7.hook_resid_post": 0.9379522035497989
+    }
+  },
+  "posterior_write_scan_slopes": {
+    "A": {
+      "blocks.0.hook_resid_post": 0.9434414274449793,
+      "blocks.1.hook_resid_post": 0.8506531302128261,
+      "blocks.2.hook_resid_post": 0.8471886471191405,
+      "blocks.3.hook_resid_post": 0.07534380753780424,
+      "blocks.4.hook_resid_post": 0.04829595995674081,
+      "blocks.5.hook_resid_post": 0.0037581535365693946,
+      "blocks.6.hook_resid_post": 0.0026570172188199186,
+      "blocks.7.hook_resid_post": 0.001690825337735972
+    },
+    "B": {
+      "blocks.0.hook_resid_post": 0.9778641163733323,
+      "blocks.1.hook_resid_post": 0.8801409790325686,
+      "blocks.2.hook_resid_post": 0.8756415969203163,
+      "blocks.3.hook_resid_post": 0.08710534371599038,
+      "blocks.4.hook_resid_post": 0.05361654338142604,
+      "blocks.5.hook_resid_post": 0.003514437232031795,
+      "blocks.6.hook_resid_post": -0.0007404728764328294,
+      "blocks.7.hook_resid_post": -0.0020725784606693
+    }
+  },
+  "n_fit": 4096,
+  "n_scan": 1024,
+  "n_valid": 3199
+}

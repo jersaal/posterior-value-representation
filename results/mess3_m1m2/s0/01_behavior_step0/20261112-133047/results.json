@@ -1,0 +1,18 @@
+{
+  "headline": {
+    "pearson_r": {
+      "value": 0.0020550632976773673,
+      "n": 81920,
+      "unit": "r",
+      "description": "Pearson r of P(choose A): actor vs target policy"
+    }
+  },
+  "n_episodes": 8192,
+  "n_decisions": 81920,
+  "checkpoint_sha256": "850156d0fbe48fe45f1800c6bf4e487ed12248a717983a99384ecca0c2cf1046",
+  "snapshot": {
+    "step": 0,
+    "file": "results/mess3_m1m2/s0/00_train/full-20260924-231232/snapshots/step_00000.pt",
+    "sha256": "c0c24e663ed763ebb36afa9a7f68d750d350156bc4b60e414739fc4ccbb68d3f"
+  }
+}

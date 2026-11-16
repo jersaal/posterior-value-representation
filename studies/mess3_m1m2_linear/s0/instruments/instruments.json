@@ -1,0 +1,113 @@
+{
+  "study": "mess3_m1m2_linear/s0",
+  "checkpoint_sha256": "b66e578c056d89cfe60a7849bd3b53214fdc28865bb6194cbbf70d427f604f3a",
+  "artifact_sha256": "db24106c3e0068e9a5174704aa997e0caa58ce92e68c0c69eab9bd31230f868b",
+  "fit_seed": 23600001,
+  "n_fit": 4096,
+  "n_plane": 2048,
+  "rows_per_dim": {
+    "fit": 8,
+    "plane": 4
+  },
+  "grade_readout": 5,
+  "grade_position": 56,
+  "min_offer_prob": 0.02,
+  "n_valid": 3199,
+  "sites": [
+    "blocks.0.hook_resid_pre",
+    "blocks.0.hook_resid_post",
+    "blocks.1.hook_resid_post",
+    "blocks.2.hook_resid_post",
+    "blocks.3.hook_resid_post"
+  ],
+  "targets": [
+    "etaA0",
+    "etaA1",
+    "etaA2",
+    "etaB0",
+    "etaB1",
+    "etaB2",
+    "D_A",
+    "D_B"
+  ],
+  "cv": {
+    "blocks.0.hook_resid_pre": {
+      "etaA": -0.0011621098946825725,
+      "etaB": -0.0008616865481678726,
+      "D": -0.0003487891875550986
+    },
+    "blocks.0.hook_resid_post": {
+      "etaA": 0.9961481050765129,
+      "etaB": 0.9940909617007389,
+      "D": 0.02706871757228768
+    },
+    "blocks.1.hook_resid_post": {
+      "etaA": 0.9953406121348314,
+      "etaB": 0.9914612871880358,
+      "D": 0.7094927193915952
+    },
+    "blocks.2.hook_resid_post": {
+      "etaA": 0.992281185453623,
+      "etaB": 0.9884468306875089,
+      "D": 0.8834208838175434
+    },
+    "blocks.3.hook_resid_post": {
+      "etaA": 0.9886465403881693,
+      "etaB": 0.9861009328517979,
+      "D": 0.8945454220711625
+    }
+  },
+  "formation_r2": 0.95,
+  "posterior_site": "blocks.0.hook_resid_post",
+  "value_site": "blocks.3.hook_resid_post",
+  "posterior_site_reached_threshold": true,
+  "value_site_reached_threshold": false,
+  "value_write_site": "blocks.3.hook_resid_post",
+  "posterior_write_site": {
+    "A": "blocks.0.hook_resid_post",
+    "B": "blocks.0.hook_resid_post"
+  },
+  "write_fraction": 0.95,
+  "write_site_rule": "earliest post-block site whose steering slope reaches 0.95 of the ladder maximum",
+  "reads_only": false,
+  "planes": [
+    "posterior_A",
+    "posterior_B",
+    "value"
+  ],
+  "write_scan_slopes": {
+    "own": {
+      "blocks.0.hook_resid_post": 0.1586776258833197,
+      "blocks.1.hook_resid_post": 0.05405994559300155,
+      "blocks.2.hook_resid_post": 0.6481437016326808,
+      "blocks.3.hook_resid_post": 0.708639823060444
+    }
+  },
+  "posterior_write_scan_slopes": {
+    "A": {
+      "blocks.0.hook_resid_post": 0.9133607940022227,
+      "blocks.1.hook_resid_post": 0.8606078109283218,
+      "blocks.2.hook_resid_post": 0.03637892783737822,
+      "blocks.3.hook_resid_post": 0.006972901209159567
+    },
+    "B": {
+      "blocks.0.hook_resid_post": 0.9144151369452208,
+      "blocks.1.hook_resid_post": 0.8811074930147664,
+      "blocks.2.hook_resid_post": 0.11238692329978399,
+      "blocks.3.hook_resid_post": 0.008456875925476384
+    }
+  },
+  "n_scan": 1024,
+  "display_site": "blocks.3.hook_resid_post",
+  "plane_cond": {
+    "posterior_A": 1.034774967398908,
+    "posterior_B": 1.0526691862328366,
+    "value": 15.777804520534104
+  },
+  "posterior_unit": {
+    "A": 0.2595629042512595,
+    "B": 0.4320087366154774
+  },
+  "run_dir": "results/mess3_m1m2_linear/s0/02_fit_instruments/20261112-143742",
+  "smoke": false
+}
