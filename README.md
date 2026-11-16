@@ -1,4 +1,4 @@
-### Transformers develop separable posterior and value representations in a simple decision task
+# Transformers develop separable posterior and value representations in a simple decision task
 
 Code, trained weights and results for the paper *Transformers develop separable
 posterior and value representations in a simple decision task*.
